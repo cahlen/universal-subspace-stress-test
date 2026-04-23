@@ -2,6 +2,8 @@
 
 A replication and validation study of Kaushik et al., *The Universal Weight Subspace Hypothesis* ([arXiv:2512.05117](https://arxiv.org/abs/2512.05117), Dec 2025).
 
+![Trained LoRA singular values (blue) vs matched rank-r iid-Gaussian null (orange); trained LoRAs have a real signal, the paper's claimed k=16 rank captures only ~40% of variance](experiments/phase1_lora_spectral/results/scree_model_layers_15_self_attn_q_proj.png)
+
 This repo runs four experiments against the paper's own corpus and scale (500 Mistral-7B LoRAs from `Lots-of-LoRAs/*-task*`, plus 100 random-init ViTs). Three of the paper's claims do not hold up at this replication scale; one partially does. The goal was to find the cheapest falsifiable tests for each claim and report them — code, data, and prose — so other readers can run the same thing and decide for themselves.
 
 ## TL;DR
