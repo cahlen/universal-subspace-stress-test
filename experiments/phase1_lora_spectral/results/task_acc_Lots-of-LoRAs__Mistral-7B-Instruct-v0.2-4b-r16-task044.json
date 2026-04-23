@@ -1,0 +1,279 @@
+{
+  "held_out": "Lots-of-LoRAs__Mistral-7B-Instruct-v0.2-4b-r16-task044",
+  "task_id": "task044",
+  "n_fit": 99,
+  "ks": [
+    1,
+    4,
+    8,
+    16,
+    32,
+    64,
+    96
+  ],
+  "weight_rel_err": {
+    "1": 1.004829740986214,
+    "4": 1.0042012866195331,
+    "8": 1.0038867340169977,
+    "16": 1.0031915856399716,
+    "32": 1.0024945055917593,
+    "64": 0.9995536070023517,
+    "96": 0.9969871301184171
+  },
+  "base_acc": 0.0,
+  "orig_acc": 0.65,
+  "proj_acc": {
+    "1": 0.0,
+    "4": 0.0,
+    "8": 0.0,
+    "16": 0.0,
+    "32": 0.0,
+    "64": 0.0,
+    "96": 0.05
+  },
+  "base_examples": [
+    {
+      "gold": "describes, parallel, circuit?",
+      "pred": "Answer: electricity flows, more than one pathway.",
+      "match": false
+    },
+    {
+      "gold": "flashlight, mirror.",
+      "pred": "Answer: light energy can be reflected.",
+      "match": false
+    },
+    {
+      "gold": "Freezing, occurs",
+      "pred": "Answer: occurs when a liquid changes to a solid, regardless of temperature.\n\nSo,",
+      "match": false
+    },
+    {
+      "gold": "provide, useable, energy, living, organisms.",
+      "pred": "Answer: primary producers\n\nExplanation: The essential words in the question are ",
+      "match": false
+    },
+    {
+      "gold": "book, molecules, vibrate, force, produced",
+      "pred": "Answer: sound waves.\n\nEssential words: When, book, dropped, wooden",
+      "match": false
+    }
+  ],
+  "orig_examples": [
+    {
+      "gold": "describes, parallel, circuit?",
+      "pred": "describes, parallel, circuit?",
+      "match": true
+    },
+    {
+      "gold": "flashlight, mirror.",
+      "pred": "girl, shining, flashlight, mirror., friend, see, signal",
+      "match": false
+    },
+    {
+      "gold": "Freezing, occurs",
+      "pred": "Freezing, substance, occurs",
+      "match": false
+    },
+    {
+      "gold": "provide, useable, energy, living, organisms.",
+      "pred": "food, chain, provide, useable, energy",
+      "match": false
+    },
+    {
+      "gold": "book, molecules, vibrate, force, produced",
+      "pred": "book, molecules, vibrate, force, produced, vibrations?",
+      "match": true
+    }
+  ],
+  "proj_examples": {
+    "1": [
+      {
+        "gold": "describes, parallel, circuit?",
+        "pred": "electricity, flows, more than one pathway",
+        "match": false
+      },
+      {
+        "gold": "flashlight, mirror.",
+        "pred": "light energy, reflect, signal, friend",
+        "match": false
+      },
+      {
+        "gold": "Freezing, occurs",
+        "pred": "when a liquid changes to a solid, regardless of temperature",
+        "match": false
+      },
+      {
+        "gold": "provide, useable, energy, living, organisms.",
+        "pred": "primary producers",
+        "match": false
+      },
+      {
+        "gold": "book, molecules, vibrate, force, produced",
+        "pred": "sound waves",
+        "match": false
+      }
+    ],
+    "4": [
+      {
+        "gold": "describes, parallel, circuit?",
+        "pred": "electricity, flows, more than one pathway",
+        "match": false
+      },
+      {
+        "gold": "flashlight, mirror.",
+        "pred": "light energy, reflect, signal, friend",
+        "match": false
+      },
+      {
+        "gold": "Freezing, occurs",
+        "pred": "when a liquid changes to a solid, regardless of temperature",
+        "match": false
+      },
+      {
+        "gold": "provide, useable, energy, living, organisms.",
+        "pred": "primary producers",
+        "match": false
+      },
+      {
+        "gold": "book, molecules, vibrate, force, produced",
+        "pred": "sound waves",
+        "match": false
+      }
+    ],
+    "8": [
+      {
+        "gold": "describes, parallel, circuit?",
+        "pred": "electricity, flows, more than one pathway",
+        "match": false
+      },
+      {
+        "gold": "flashlight, mirror.",
+        "pred": "light energy, reflect, signal, friend",
+        "match": false
+      },
+      {
+        "gold": "Freezing, occurs",
+        "pred": "when a liquid changes to a solid, regardless of temperature",
+        "match": false
+      },
+      {
+        "gold": "provide, useable, energy, living, organisms.",
+        "pred": "primary producers",
+        "match": false
+      },
+      {
+        "gold": "book, molecules, vibrate, force, produced",
+        "pred": "sound waves",
+        "match": false
+      }
+    ],
+    "16": [
+      {
+        "gold": "describes, parallel, circuit?",
+        "pred": "electricity, flows, along, more, than, one, pathway",
+        "match": false
+      },
+      {
+        "gold": "flashlight, mirror.",
+        "pred": "light, reflect, signal, friend",
+        "match": false
+      },
+      {
+        "gold": "Freezing, occurs",
+        "pred": "when a liquid changes to a solid, regardless of temperature",
+        "match": false
+      },
+      {
+        "gold": "provide, useable, energy, living, organisms.",
+        "pred": "primary producers",
+        "match": false
+      },
+      {
+        "gold": "book, molecules, vibrate, force, produced",
+        "pred": "sound waves",
+        "match": false
+      }
+    ],
+    "32": [
+      {
+        "gold": "describes, parallel, circuit?",
+        "pred": "electricity, flows, more than one pathway",
+        "match": false
+      },
+      {
+        "gold": "flashlight, mirror.",
+        "pred": "light, reflect, signal, friend",
+        "match": false
+      },
+      {
+        "gold": "Freezing, occurs",
+        "pred": "when a liquid changes to a solid, regardless of temperature",
+        "match": false
+      },
+      {
+        "gold": "provide, useable, energy, living, organisms.",
+        "pred": "primary producers",
+        "match": false
+      },
+      {
+        "gold": "book, molecules, vibrate, force, produced",
+        "pred": "sound waves",
+        "match": false
+      }
+    ],
+    "64": [
+      {
+        "gold": "describes, parallel, circuit?",
+        "pred": "electricity, flows, more than one pathway",
+        "match": false
+      },
+      {
+        "gold": "flashlight, mirror.",
+        "pred": "light, reflect, signal, friend",
+        "match": false
+      },
+      {
+        "gold": "Freezing, occurs",
+        "pred": "when a liquid changes to a solid, regardless of temperature",
+        "match": false
+      },
+      {
+        "gold": "provide, useable, energy, living, organisms.",
+        "pred": "primary producers",
+        "match": false
+      },
+      {
+        "gold": "book, molecules, vibrate, force, produced",
+        "pred": "sound waves",
+        "match": false
+      }
+    ],
+    "96": [
+      {
+        "gold": "describes, parallel, circuit?",
+        "pred": "electricity, flows, more than one pathway",
+        "match": false
+      },
+      {
+        "gold": "flashlight, mirror.",
+        "pred": "shining, flashlight, mirror, can see, signal, reflect, light energy",
+        "match": true
+      },
+      {
+        "gold": "Freezing, occurs",
+        "pred": "when a liquid changes to a solid, regardless of temperature",
+        "match": false
+      },
+      {
+        "gold": "provide, useable, energy, living, organisms.",
+        "pred": "primary producers",
+        "match": false
+      },
+      {
+        "gold": "book, molecules, vibrate, force, produced",
+        "pred": "sound waves",
+        "match": false
+      }
+    ]
+  }
+}

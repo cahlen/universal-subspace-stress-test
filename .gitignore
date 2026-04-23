@@ -1,0 +1,25 @@
+# Downloaded model weights (18 GB; re-fetch with download.py)
+data/
+
+# Raw stdout logs from runs
+logs/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Local editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Code session state
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+

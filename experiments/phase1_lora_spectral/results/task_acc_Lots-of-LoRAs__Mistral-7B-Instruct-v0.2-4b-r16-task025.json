@@ -1,0 +1,279 @@
+{
+  "held_out": "Lots-of-LoRAs__Mistral-7B-Instruct-v0.2-4b-r16-task025",
+  "task_id": "task025",
+  "n_fit": 99,
+  "ks": [
+    1,
+    4,
+    8,
+    16,
+    32,
+    64,
+    96
+  ],
+  "weight_rel_err": {
+    "1": 1.0039555369673367,
+    "4": 1.0036832927362997,
+    "8": 1.0035482640948454,
+    "16": 1.0032133982283324,
+    "32": 1.0028787242284023,
+    "64": 1.0014123959001593,
+    "96": 1.0006698734759152
+  },
+  "base_acc": 0.0,
+  "orig_acc": 0.05,
+  "proj_acc": {
+    "1": 0.0,
+    "4": 0.0,
+    "8": 0.0,
+    "16": 0.0,
+    "32": 0.0,
+    "64": 0.0,
+    "96": 0.0
+  },
+  "base_examples": [
+    {
+      "gold": "They got a big trophy for it .",
+      "pred": "A) They were not expecting to win .\nB) They did not have enough time to prepare",
+      "match": false
+    },
+    {
+      "gold": "The speaker is not offered the position .",
+      "pred": "A) The speaker declines the offer and asks for a higher salary.\nB) The speaker",
+      "match": false
+    },
+    {
+      "gold": "He would feel happy .",
+      "pred": "A) He would feel relieved.\nB) He would feel anxious.\nC) He would",
+      "match": false
+    },
+    {
+      "gold": "he thinks less money should be put in the healthcare systems.",
+      "pred": "A) He is concerned about the reviews of the healthcare system in the United Stat",
+      "match": false
+    },
+    {
+      "gold": "I wanted to eat a lot of food .",
+      "pred": "To craft an incorrect answer, I would say:\nI went to the game to eat a lot",
+      "match": false
+    }
+  ],
+  "orig_examples": [
+    {
+      "gold": "They got a big trophy for it .",
+      "pred": "They are a professional .",
+      "match": false
+    },
+    {
+      "gold": "The speaker is not offered the position .",
+      "pred": "The speaker does n't accept the pay .",
+      "match": false
+    },
+    {
+      "gold": "He would feel happy .",
+      "pred": "He would feel happy .",
+      "match": true
+    },
+    {
+      "gold": "he thinks less money should be put in the healthcare systems.",
+      "pred": "he is concerned about the healthcare of Germany.",
+      "match": false
+    },
+    {
+      "gold": "I wanted to eat a lot of food .",
+      "pred": "To eat a lot of food .",
+      "match": false
+    }
+  ],
+  "proj_examples": {
+    "1": [
+      {
+        "gold": "They got a big trophy for it .",
+        "pred": "They were happy with the perfect score .",
+        "match": false
+      },
+      {
+        "gold": "The speaker is not offered the position .",
+        "pred": "The speaker declines the pay .",
+        "match": false
+      },
+      {
+        "gold": "He would feel happy .",
+        "pred": "He would feel pain .",
+        "match": false
+      },
+      {
+        "gold": "he thinks less money should be put in the healthcare systems.",
+        "pred": "He is concerned about the cost of healthcare in the United States.",
+        "match": false
+      },
+      {
+        "gold": "I wanted to eat a lot of food .",
+        "pred": "To eat a lot and get sick.",
+        "match": false
+      }
+    ],
+    "4": [
+      {
+        "gold": "They got a big trophy for it .",
+        "pred": "They were happy with the perfect score .",
+        "match": false
+      },
+      {
+        "gold": "The speaker is not offered the position .",
+        "pred": "The speaker declines the pay .",
+        "match": false
+      },
+      {
+        "gold": "He would feel happy .",
+        "pred": "He would feel pain .",
+        "match": false
+      },
+      {
+        "gold": "he thinks less money should be put in the healthcare systems.",
+        "pred": "He is concerned about the cost of healthcare in the United States.",
+        "match": false
+      },
+      {
+        "gold": "I wanted to eat a lot of food .",
+        "pred": "To eat a lot and have fun with friends .",
+        "match": false
+      }
+    ],
+    "8": [
+      {
+        "gold": "They got a big trophy for it .",
+        "pred": "They worked hard for it and it paid off.",
+        "match": false
+      },
+      {
+        "gold": "The speaker is not offered the position .",
+        "pred": "The speaker declines the pay .",
+        "match": false
+      },
+      {
+        "gold": "He would feel happy .",
+        "pred": "He would feel pain .",
+        "match": false
+      },
+      {
+        "gold": "he thinks less money should be put in the healthcare systems.",
+        "pred": "He is concerned about the cost of healthcare in the United States.",
+        "match": false
+      },
+      {
+        "gold": "I wanted to eat a lot of food .",
+        "pred": "To eat a lot and get sick.",
+        "match": false
+      }
+    ],
+    "16": [
+      {
+        "gold": "They got a big trophy for it .",
+        "pred": "They were not expecting to win .",
+        "match": false
+      },
+      {
+        "gold": "The speaker is not offered the position .",
+        "pred": "The speaker declines the pay .",
+        "match": false
+      },
+      {
+        "gold": "He would feel happy .",
+        "pred": "He would feel pain .",
+        "match": false
+      },
+      {
+        "gold": "he thinks less money should be put in the healthcare systems.",
+        "pred": "He is concerned about the cost of healthcare in the United States.",
+        "match": false
+      },
+      {
+        "gold": "I wanted to eat a lot of food .",
+        "pred": "To eat a lot and have fun with friends .",
+        "match": false
+      }
+    ],
+    "32": [
+      {
+        "gold": "They got a big trophy for it .",
+        "pred": "They were not expecting to win .",
+        "match": false
+      },
+      {
+        "gold": "The speaker is not offered the position .",
+        "pred": "The speaker declines the pay .",
+        "match": false
+      },
+      {
+        "gold": "He would feel happy .",
+        "pred": "He would feel pain .",
+        "match": false
+      },
+      {
+        "gold": "he thinks less money should be put in the healthcare systems.",
+        "pred": "He is concerned about the cost of healthcare in the United States.",
+        "match": false
+      },
+      {
+        "gold": "I wanted to eat a lot of food .",
+        "pred": "To eat a lot and get sick.",
+        "match": false
+      }
+    ],
+    "64": [
+      {
+        "gold": "They got a big trophy for it .",
+        "pred": "They didn't value the win for the win itself, but for the preparation and hard w",
+        "match": false
+      },
+      {
+        "gold": "The speaker is not offered the position .",
+        "pred": "The speaker declines the pay .",
+        "match": false
+      },
+      {
+        "gold": "He would feel happy .",
+        "pred": "He would feel pain.",
+        "match": false
+      },
+      {
+        "gold": "he thinks less money should be put in the healthcare systems.",
+        "pred": "he is concerned about the reviews of the healthcare system in the United States.",
+        "match": false
+      },
+      {
+        "gold": "I wanted to eat a lot of food .",
+        "pred": "To eat more and get sick.",
+        "match": false
+      }
+    ],
+    "96": [
+      {
+        "gold": "They got a big trophy for it .",
+        "pred": "They didn't value the win for the win itself, but for the preparation that went ",
+        "match": false
+      },
+      {
+        "gold": "The speaker is not offered the position .",
+        "pred": "The speaker declines the pay.",
+        "match": false
+      },
+      {
+        "gold": "He would feel happy .",
+        "pred": "He would feel pain.",
+        "match": false
+      },
+      {
+        "gold": "he thinks less money should be put in the healthcare systems.",
+        "pred": "he is concerned about the reviews of the healthcare system in the United States.",
+        "match": false
+      },
+      {
+        "gold": "I wanted to eat a lot of food .",
+        "pred": "To enjoy the game with friends.",
+        "match": false
+      }
+    ]
+  }
+}

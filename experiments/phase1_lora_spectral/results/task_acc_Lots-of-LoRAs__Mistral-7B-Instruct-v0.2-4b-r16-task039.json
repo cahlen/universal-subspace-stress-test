@@ -1,0 +1,279 @@
+{
+  "held_out": "Lots-of-LoRAs__Mistral-7B-Instruct-v0.2-4b-r16-task039",
+  "task_id": "task039",
+  "n_fit": 99,
+  "ks": [
+    1,
+    4,
+    8,
+    16,
+    32,
+    64,
+    96
+  ],
+  "weight_rel_err": {
+    "1": 1.0039587299325456,
+    "4": 1.003674207429657,
+    "8": 1.0035280465569472,
+    "16": 1.0031765894928162,
+    "32": 1.002836812840232,
+    "64": 1.0013356568160623,
+    "96": 1.0005954170434501
+  },
+  "base_acc": 0.25,
+  "orig_acc": 0.65,
+  "proj_acc": {
+    "1": 0.65,
+    "4": 0.65,
+    "8": 0.65,
+    "16": 0.65,
+    "32": 0.65,
+    "64": 0.65,
+    "96": 0.65
+  },
+  "base_examples": [
+    {
+      "gold": "another",
+      "pred": "Answer: habitat, animals, another area.",
+      "match": false
+    },
+    {
+      "gold": "painful",
+      "pred": "Answer: Physical activity, painful, can, causes, organisms, be, harmful, Elect",
+      "match": false
+    },
+    {
+      "gold": "Milk",
+      "pred": "Milk, cow's milk.",
+      "match": true
+    },
+    {
+      "gold": "are",
+      "pred": "Answer: gills.",
+      "match": false
+    },
+    {
+      "gold": "easily",
+      "pred": "Answer: soil, water, easily, flows, through.",
+      "match": false
+    }
+  ],
+  "orig_examples": [
+    {
+      "gold": "another",
+      "pred": "move",
+      "match": false
+    },
+    {
+      "gold": "painful",
+      "pred": "painful",
+      "match": true
+    },
+    {
+      "gold": "Milk",
+      "pred": "Milk",
+      "match": true
+    },
+    {
+      "gold": "are",
+      "pred": "water",
+      "match": false
+    },
+    {
+      "gold": "easily",
+      "pred": "soil",
+      "match": false
+    }
+  ],
+  "proj_examples": {
+    "1": [
+      {
+        "gold": "another",
+        "pred": "habitat, animals, move.",
+        "match": false
+      },
+      {
+        "gold": "painful",
+        "pred": "painful, organisms.",
+        "match": true
+      },
+      {
+        "gold": "Milk",
+        "pred": "Milk.",
+        "match": true
+      },
+      {
+        "gold": "are",
+        "pred": "gills.",
+        "match": false
+      },
+      {
+        "gold": "easily",
+        "pred": "permeable, water, easily, flows, through, soil.",
+        "match": false
+      }
+    ],
+    "4": [
+      {
+        "gold": "another",
+        "pred": "habitat, animals, move.",
+        "match": false
+      },
+      {
+        "gold": "painful",
+        "pred": "painful, organisms.",
+        "match": true
+      },
+      {
+        "gold": "Milk",
+        "pred": "Milk.",
+        "match": true
+      },
+      {
+        "gold": "are",
+        "pred": "gills.",
+        "match": false
+      },
+      {
+        "gold": "easily",
+        "pred": "permeable, water, easily, flows, through, soil.",
+        "match": false
+      }
+    ],
+    "8": [
+      {
+        "gold": "another",
+        "pred": "habitat, animals, move.",
+        "match": false
+      },
+      {
+        "gold": "painful",
+        "pred": "painful, organisms.",
+        "match": true
+      },
+      {
+        "gold": "Milk",
+        "pred": "Milk.",
+        "match": true
+      },
+      {
+        "gold": "are",
+        "pred": "gills.",
+        "match": false
+      },
+      {
+        "gold": "easily",
+        "pred": "permeable, water, easily, flows, through, soil.",
+        "match": false
+      }
+    ],
+    "16": [
+      {
+        "gold": "another",
+        "pred": "habitat, animals, another, area.",
+        "match": false
+      },
+      {
+        "gold": "painful",
+        "pred": "painful, organisms.",
+        "match": true
+      },
+      {
+        "gold": "Milk",
+        "pred": "Milk.",
+        "match": true
+      },
+      {
+        "gold": "are",
+        "pred": "gills.",
+        "match": false
+      },
+      {
+        "gold": "easily",
+        "pred": "permeable, water, easily, flows, through, soil.",
+        "match": false
+      }
+    ],
+    "32": [
+      {
+        "gold": "another",
+        "pred": "habitat, animals, another, area.",
+        "match": false
+      },
+      {
+        "gold": "painful",
+        "pred": "painful, organisms.",
+        "match": true
+      },
+      {
+        "gold": "Milk",
+        "pred": "Milk.",
+        "match": true
+      },
+      {
+        "gold": "are",
+        "pred": "gills.",
+        "match": false
+      },
+      {
+        "gold": "easily",
+        "pred": "permeable, water, easily, flows, through, soil.",
+        "match": false
+      }
+    ],
+    "64": [
+      {
+        "gold": "another",
+        "pred": "habitat, animals, another, area.",
+        "match": false
+      },
+      {
+        "gold": "painful",
+        "pred": "painful, organisms.",
+        "match": true
+      },
+      {
+        "gold": "Milk",
+        "pred": "Milk.",
+        "match": true
+      },
+      {
+        "gold": "are",
+        "pred": "gills.",
+        "match": false
+      },
+      {
+        "gold": "easily",
+        "pred": "soil, water.",
+        "match": false
+      }
+    ],
+    "96": [
+      {
+        "gold": "another",
+        "pred": "habitat, animals.",
+        "match": false
+      },
+      {
+        "gold": "painful",
+        "pred": "painful, organisms.",
+        "match": true
+      },
+      {
+        "gold": "Milk",
+        "pred": "Milk, cow's milk.",
+        "match": true
+      },
+      {
+        "gold": "are",
+        "pred": "gills.",
+        "match": false
+      },
+      {
+        "gold": "easily",
+        "pred": "soil, water.",
+        "match": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "held_out": "Lots-of-LoRAs__Mistral-7B-Instruct-v0.2-4b-r16-task046",
+  "task_id": "task046",
+  "n_fit": 99,
+  "ks": [
+    1,
+    4,
+    8,
+    16,
+    32,
+    64,
+    96
+  ],
+  "weight_rel_err": {
+    "1": 1.0032484976092442,
+    "4": 1.0028022436836719,
+    "8": 1.0025568015110569,
+    "16": 1.0020228937488527,
+    "32": 1.001401067509296,
+    "64": 0.9990016924472617,
+    "96": 0.9965286415751091
+  },
+  "base_acc": 0.55,
+  "orig_acc": 0.8,
+  "proj_acc": {
+    "1": 0.7,
+    "4": 0.7,
+    "8": 0.7,
+    "16": 0.7,
+    "32": 0.7,
+    "64": 0.7,
+    "96": 0.7
+  },
+  "base_examples": [
+    {
+      "gold": "Humans.",
+      "pred": "Description.\n\nExplanation: Tom Robinson is a character in the novel \"To Kill a",
+      "match": false
+    },
+    {
+      "gold": "Money.",
+      "pred": "(10) Money.",
+      "match": true
+    },
+    {
+      "gold": "Quantity.",
+      "pred": "Quantity.",
+      "match": true
+    },
+    {
+      "gold": "Date.",
+      "pred": "Date.",
+      "match": true
+    },
+    {
+      "gold": "Humans.",
+      "pred": "Quantity.",
+      "match": false
+    }
+  ],
+  "orig_examples": [
+    {
+      "gold": "Humans.",
+      "pred": "Humans.",
+      "match": true
+    },
+    {
+      "gold": "Money.",
+      "pred": "Money.",
+      "match": true
+    },
+    {
+      "gold": "Quantity.",
+      "pred": "Quantity.",
+      "match": true
+    },
+    {
+      "gold": "Date.",
+      "pred": "Date.",
+      "match": true
+    },
+    {
+      "gold": "Humans.",
+      "pred": "Quantity.",
+      "match": false
+    }
+  ],
+  "proj_examples": {
+    "1": [
+      {
+        "gold": "Humans.",
+        "pred": "Humans.",
+        "match": true
+      },
+      {
+        "gold": "Money.",
+        "pred": "Money.",
+        "match": true
+      },
+      {
+        "gold": "Quantity.",
+        "pred": "Quantity.",
+        "match": true
+      },
+      {
+        "gold": "Date.",
+        "pred": "Date.",
+        "match": true
+      },
+      {
+        "gold": "Humans.",
+        "pred": "Quantity.",
+        "match": false
+      }
+    ],
+    "4": [
+      {
+        "gold": "Humans.",
+        "pred": "Humans.",
+        "match": true
+      },
+      {
+        "gold": "Money.",
+        "pred": "Money.",
+        "match": true
+      },
+      {
+        "gold": "Quantity.",
+        "pred": "Quantity.",
+        "match": true
+      },
+      {
+        "gold": "Date.",
+        "pred": "Date.",
+        "match": true
+      },
+      {
+        "gold": "Humans.",
+        "pred": "Quantity.",
+        "match": false
+      }
+    ],
+    "8": [
+      {
+        "gold": "Humans.",
+        "pred": "Humans.",
+        "match": true
+      },
+      {
+        "gold": "Money.",
+        "pred": "Money.",
+        "match": true
+      },
+      {
+        "gold": "Quantity.",
+        "pred": "Quantity.",
+        "match": true
+      },
+      {
+        "gold": "Date.",
+        "pred": "Date.",
+        "match": true
+      },
+      {
+        "gold": "Humans.",
+        "pred": "Quantity.",
+        "match": false
+      }
+    ],
+    "16": [
+      {
+        "gold": "Humans.",
+        "pred": "Humans.",
+        "match": true
+      },
+      {
+        "gold": "Money.",
+        "pred": "Money.",
+        "match": true
+      },
+      {
+        "gold": "Quantity.",
+        "pred": "Quantity.",
+        "match": true
+      },
+      {
+        "gold": "Date.",
+        "pred": "Date.",
+        "match": true
+      },
+      {
+        "gold": "Humans.",
+        "pred": "Quantity.",
+        "match": false
+      }
+    ],
+    "32": [
+      {
+        "gold": "Humans.",
+        "pred": "Humans.",
+        "match": true
+      },
+      {
+        "gold": "Money.",
+        "pred": "Money.",
+        "match": true
+      },
+      {
+        "gold": "Quantity.",
+        "pred": "Quantity.",
+        "match": true
+      },
+      {
+        "gold": "Date.",
+        "pred": "Date.",
+        "match": true
+      },
+      {
+        "gold": "Humans.",
+        "pred": "Quantity.",
+        "match": false
+      }
+    ],
+    "64": [
+      {
+        "gold": "Humans.",
+        "pred": "Humans.",
+        "match": true
+      },
+      {
+        "gold": "Money.",
+        "pred": "Money.",
+        "match": true
+      },
+      {
+        "gold": "Quantity.",
+        "pred": "Quantity.",
+        "match": true
+      },
+      {
+        "gold": "Date.",
+        "pred": "Date.",
+        "match": true
+      },
+      {
+        "gold": "Humans.",
+        "pred": "Quantity.",
+        "match": false
+      }
+    ],
+    "96": [
+      {
+        "gold": "Humans.",
+        "pred": "Humans.",
+        "match": true
+      },
+      {
+        "gold": "Money.",
+        "pred": "Money.",
+        "match": true
+      },
+      {
+        "gold": "Quantity.",
+        "pred": "Quantity.",
+        "match": true
+      },
+      {
+        "gold": "Date.",
+        "pred": "Date.",
+        "match": true
+      },
+      {
+        "gold": "Humans.",
+        "pred": "Quantity.",
+        "match": false
+      }
+    ]
+  }
+}

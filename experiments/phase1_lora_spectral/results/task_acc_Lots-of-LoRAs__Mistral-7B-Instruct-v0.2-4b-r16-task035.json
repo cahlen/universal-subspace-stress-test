@@ -1,0 +1,279 @@
+{
+  "held_out": "Lots-of-LoRAs__Mistral-7B-Instruct-v0.2-4b-r16-task035",
+  "task_id": "task035",
+  "n_fit": 99,
+  "ks": [
+    1,
+    4,
+    8,
+    16,
+    32,
+    64,
+    96
+  ],
+  "weight_rel_err": {
+    "1": 1.001980137519698,
+    "4": 1.0018379131599595,
+    "8": 1.0017675360105232,
+    "16": 1.0015945374151227,
+    "32": 1.0014468904090301,
+    "64": 1.0007131074200675,
+    "96": 1.0003377253729238
+  },
+  "base_acc": 0.1,
+  "orig_acc": 0.65,
+  "proj_acc": {
+    "1": 0.25,
+    "4": 0.25,
+    "8": 0.25,
+    "16": 0.25,
+    "32": 0.3,
+    "64": 0.3,
+    "96": 0.25
+  },
+  "base_examples": [
+    {
+      "gold": "PersonX really liked traveling for months at a time while PersonY was more of a homebody. _ had no use for a house sitter.",
+      "pred": "PersonX really disliked traveling for months at a time while PersonY was always ",
+      "match": false
+    },
+    {
+      "gold": "After getting out of bed PersonX did 100 jumping jacks while PersonY did 100 pullups. _ had excellent arm strength.",
+      "pred": "Question: After getting out of bed PersonX did 100 jumping jacks while PersonY",
+      "match": false
+    },
+    {
+      "gold": "PersonX cut a piece of cake to save for PersonY, and _ felt gratitude toward her for exercising self control.",
+      "pred": "PersonX cut a piece of cake to save for PersonY, but _ felt guilty for hoarding",
+      "match": false
+    },
+    {
+      "gold": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is sullen.",
+      "pred": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is",
+      "match": true
+    },
+    {
+      "gold": "PersonX suffered from a migraine quite often but PersonY did not. _ went to the mall.",
+      "pred": "PersonX did not suffer from a migraine quite often but PersonY did. _ went to th",
+      "match": false
+    }
+  ],
+  "orig_examples": [
+    {
+      "gold": "PersonX really liked traveling for months at a time while PersonY was more of a homebody. _ had no use for a house sitter.",
+      "pred": "PersonX really liked traveling for months at a time while PersonY was more of a ",
+      "match": true
+    },
+    {
+      "gold": "After getting out of bed PersonX did 100 jumping jacks while PersonY did 100 pullups. _ had excellent arm strength.",
+      "pred": "After getting out of bed PersonX did 100 jumping jacks while PersonY did",
+      "match": true
+    },
+    {
+      "gold": "PersonX cut a piece of cake to save for PersonY, and _ felt gratitude toward her for exercising self control.",
+      "pred": "PersonX cut a piece of cake to save for PersonY, and _ felt grateful for her exe",
+      "match": false
+    },
+    {
+      "gold": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is sullen.",
+      "pred": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is",
+      "match": true
+    },
+    {
+      "gold": "PersonX suffered from a migraine quite often but PersonY did not. _ went to the mall.",
+      "pred": "PersonX suffered from a migraine quite often but PersonY did not. _ went to the ",
+      "match": true
+    }
+  ],
+  "proj_examples": {
+    "1": [
+      {
+        "gold": "PersonX really liked traveling for months at a time while PersonY was more of a homebody. _ had no use for a house sitter.",
+        "pred": "PersonX really liked traveling for months at a time while PersonY was more of a ",
+        "match": true
+      },
+      {
+        "gold": "After getting out of bed PersonX did 100 jumping jacks while PersonY did 100 pullups. _ had excellent arm strength.",
+        "pred": "After getting out of bed PersonX did 100 jumping jacks while PersonY did",
+        "match": true
+      },
+      {
+        "gold": "PersonX cut a piece of cake to save for PersonY, and _ felt gratitude toward her for exercising self control.",
+        "pred": "PersonX cut a piece of cake to save for PersonY, but _ felt guilty for not shari",
+        "match": false
+      },
+      {
+        "gold": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is sullen.",
+        "pred": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is",
+        "match": true
+      },
+      {
+        "gold": "PersonX suffered from a migraine quite often but PersonY did not. _ went to the mall.",
+        "pred": "PersonX did not suffer from a migraine quite often but PersonY did. _ went to th",
+        "match": false
+      }
+    ],
+    "4": [
+      {
+        "gold": "PersonX really liked traveling for months at a time while PersonY was more of a homebody. _ had no use for a house sitter.",
+        "pred": "PersonX really liked traveling for months at a time while PersonY was more of a ",
+        "match": true
+      },
+      {
+        "gold": "After getting out of bed PersonX did 100 jumping jacks while PersonY did 100 pullups. _ had excellent arm strength.",
+        "pred": "After getting out of bed PersonX did 100 jumping jacks while PersonY did",
+        "match": true
+      },
+      {
+        "gold": "PersonX cut a piece of cake to save for PersonY, and _ felt gratitude toward her for exercising self control.",
+        "pred": "PersonX cut a piece of cake to save for PersonY, but _ felt guilty for not shari",
+        "match": false
+      },
+      {
+        "gold": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is sullen.",
+        "pred": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is",
+        "match": true
+      },
+      {
+        "gold": "PersonX suffered from a migraine quite often but PersonY did not. _ went to the mall.",
+        "pred": "PersonX did not suffer from a migraine quite often but PersonY did. _ went to th",
+        "match": false
+      }
+    ],
+    "8": [
+      {
+        "gold": "PersonX really liked traveling for months at a time while PersonY was more of a homebody. _ had no use for a house sitter.",
+        "pred": "PersonX really liked traveling for months at a time while PersonY was more of a ",
+        "match": true
+      },
+      {
+        "gold": "After getting out of bed PersonX did 100 jumping jacks while PersonY did 100 pullups. _ had excellent arm strength.",
+        "pred": "After getting out of bed PersonX did 100 jumping jacks while PersonY did",
+        "match": true
+      },
+      {
+        "gold": "PersonX cut a piece of cake to save for PersonY, and _ felt gratitude toward her for exercising self control.",
+        "pred": "PersonX cut a piece of cake to save for PersonY, but _ felt guilty for not shari",
+        "match": false
+      },
+      {
+        "gold": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is sullen.",
+        "pred": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is",
+        "match": true
+      },
+      {
+        "gold": "PersonX suffered from a migraine quite often but PersonY did not. _ went to the mall.",
+        "pred": "PersonX did not suffer from a migraine quite often but PersonY did. _ went to th",
+        "match": false
+      }
+    ],
+    "16": [
+      {
+        "gold": "PersonX really liked traveling for months at a time while PersonY was more of a homebody. _ had no use for a house sitter.",
+        "pred": "PersonX really liked traveling for months at a time while PersonY was more of a ",
+        "match": true
+      },
+      {
+        "gold": "After getting out of bed PersonX did 100 jumping jacks while PersonY did 100 pullups. _ had excellent arm strength.",
+        "pred": "After getting out of bed PersonX did 100 jumping jacks while PersonY did",
+        "match": true
+      },
+      {
+        "gold": "PersonX cut a piece of cake to save for PersonY, and _ felt gratitude toward her for exercising self control.",
+        "pred": "PersonX cut a piece of cake to save for PersonY, but _ felt guilty for not shari",
+        "match": false
+      },
+      {
+        "gold": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is sullen.",
+        "pred": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is",
+        "match": true
+      },
+      {
+        "gold": "PersonX suffered from a migraine quite often but PersonY did not. _ went to the mall.",
+        "pred": "PersonX did not suffer from a migraine quite often but PersonY did. _ went to th",
+        "match": false
+      }
+    ],
+    "32": [
+      {
+        "gold": "PersonX really liked traveling for months at a time while PersonY was more of a homebody. _ had no use for a house sitter.",
+        "pred": "PersonX really liked traveling for months at a time while PersonY was more of a ",
+        "match": true
+      },
+      {
+        "gold": "After getting out of bed PersonX did 100 jumping jacks while PersonY did 100 pullups. _ had excellent arm strength.",
+        "pred": "After getting out of bed PersonX did 100 jumping jacks while PersonY did",
+        "match": true
+      },
+      {
+        "gold": "PersonX cut a piece of cake to save for PersonY, and _ felt gratitude toward her for exercising self control.",
+        "pred": "PersonX cut a piece of cake to save for PersonY, but _ felt guilty for not shari",
+        "match": false
+      },
+      {
+        "gold": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is sullen.",
+        "pred": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is",
+        "match": true
+      },
+      {
+        "gold": "PersonX suffered from a migraine quite often but PersonY did not. _ went to the mall.",
+        "pred": "PersonX did not suffer from a migraine quite often but PersonY did. _ went to th",
+        "match": false
+      }
+    ],
+    "64": [
+      {
+        "gold": "PersonX really liked traveling for months at a time while PersonY was more of a homebody. _ had no use for a house sitter.",
+        "pred": "PersonX really liked traveling for months at a time while PersonY was more of a ",
+        "match": true
+      },
+      {
+        "gold": "After getting out of bed PersonX did 100 jumping jacks while PersonY did 100 pullups. _ had excellent arm strength.",
+        "pred": "After getting out of bed PersonX did 100 jumping jacks while PersonY did",
+        "match": true
+      },
+      {
+        "gold": "PersonX cut a piece of cake to save for PersonY, and _ felt gratitude toward her for exercising self control.",
+        "pred": "PersonX cut a piece of cake to save for PersonY, but _ felt guilty for not shari",
+        "match": false
+      },
+      {
+        "gold": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is sullen.",
+        "pred": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is",
+        "match": true
+      },
+      {
+        "gold": "PersonX suffered from a migraine quite often but PersonY did not. _ went to the mall.",
+        "pred": "PersonX did not suffer from a migraine quite often but PersonY did. _ went to th",
+        "match": false
+      }
+    ],
+    "96": [
+      {
+        "gold": "PersonX really liked traveling for months at a time while PersonY was more of a homebody. _ had no use for a house sitter.",
+        "pred": "PersonX really disliked traveling for months at a time while PersonY was more of",
+        "match": false
+      },
+      {
+        "gold": "After getting out of bed PersonX did 100 jumping jacks while PersonY did 100 pullups. _ had excellent arm strength.",
+        "pred": "After getting out of bed PersonX did 100 jumping jacks while PersonY did",
+        "match": true
+      },
+      {
+        "gold": "PersonX cut a piece of cake to save for PersonY, and _ felt gratitude toward her for exercising self control.",
+        "pred": "PersonX cut a piece of cake to save for PersonY, but _ felt guilty for not shari",
+        "match": false
+      },
+      {
+        "gold": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is sullen.",
+        "pred": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is",
+        "match": true
+      },
+      {
+        "gold": "PersonX suffered from a migraine quite often but PersonY did not. _ went to the mall.",
+        "pred": "PersonX did not suffer from a migraine quite often but PersonY did. _ went to th",
+        "match": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "held_out": "Lots-of-LoRAs__Mistral-7B-Instruct-v0.2-4b-r16-task020",
+  "n_fit": 99,
+  "ks": [
+    1,
+    8,
+    16,
+    32,
+    64,
+    96
+  ],
+  "weight_rel_err": {
+    "1": 1.0797814329313362,
+    "8": 1.072310490326782,
+    "16": 1.0661505207683617,
+    "32": 1.0602164843262354,
+    "64": 1.0324100435704882,
+    "96": 1.0158962057547694
+  },
+  "kl_base_vs_orig": 0.01550272386521101,
+  "top1_base_vs_orig": 1.0,
+  "metrics": {
+    "1": {
+      "kl_orig_vs_proj": 0.007762079127132893,
+      "kl_base_vs_proj": 0.02309485897421837,
+      "top1_orig_vs_proj": 1.0,
+      "top1_base_vs_proj": 1.0,
+      "weight_rel_err": 1.0797814329313362
+    },
+    "8": {
+      "kl_orig_vs_proj": 0.006946738809347153,
+      "kl_base_vs_proj": 0.022562682628631592,
+      "top1_orig_vs_proj": 1.0,
+      "top1_base_vs_proj": 1.0,
+      "weight_rel_err": 1.072310490326782
+    },
+    "16": {
+      "kl_orig_vs_proj": 0.0073621682822704315,
+      "kl_base_vs_proj": 0.022878551855683327,
+      "top1_orig_vs_proj": 1.0,
+      "top1_base_vs_proj": 1.0,
+      "weight_rel_err": 1.0661505207683617
+    },
+    "32": {
+      "kl_orig_vs_proj": 0.007333050016313791,
+      "kl_base_vs_proj": 0.023217778652906418,
+      "top1_orig_vs_proj": 1.0,
+      "top1_base_vs_proj": 1.0,
+      "weight_rel_err": 1.0602164843262354
+    },
+    "64": {
+      "kl_orig_vs_proj": 0.004997981246560812,
+      "kl_base_vs_proj": 0.01354678999632597,
+      "top1_orig_vs_proj": 1.0,
+      "top1_base_vs_proj": 1.0,
+      "weight_rel_err": 1.0324100435704882
+    },
+    "96": {
+      "kl_orig_vs_proj": 0.0045319111086428165,
+      "kl_base_vs_proj": 0.008324386551976204,
+      "top1_orig_vs_proj": 1.0,
+      "top1_base_vs_proj": 1.0,
+      "weight_rel_err": 1.0158962057547694
+    }
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "held_out": "task034",
+  "n_fit": 200,
+  "k": 16,
+  "steps": 100,
+  "batch_size": 2,
+  "lr_lora": 0.0001,
+  "lr_subspace": 0.05,
+  "n_train": 32,
+  "runs": {
+    "subspace_k16_with_mean": {
+      "log": [
+        {
+          "step": 1,
+          "loss": NaN
+        },
+        {
+          "step": 5,
+          "loss": NaN
+        },
+        {
+          "step": 10,
+          "loss": NaN
+        },
+        {
+          "step": 15,
+          "loss": NaN
+        },
+        {
+          "step": 20,
+          "loss": NaN
+        },
+        {
+          "step": 25,
+          "loss": NaN
+        },
+        {
+          "step": 30,
+          "loss": NaN
+        },
+        {
+          "step": 35,
+          "loss": NaN
+        },
+        {
+          "step": 40,
+          "loss": NaN
+        },
+        {
+          "step": 45,
+          "loss": NaN
+        },
+        {
+          "step": 50,
+          "loss": NaN
+        },
+        {
+          "step": 55,
+          "loss": NaN
+        },
+        {
+          "step": 60,
+          "loss": NaN
+        },
+        {
+          "step": 65,
+          "loss": NaN
+        },
+        {
+          "step": 70,
+          "loss": NaN
+        },
+        {
+          "step": 75,
+          "loss": NaN
+        },
+        {
+          "step": 80,
+          "loss": NaN
+        },
+        {
+          "step": 85,
+          "loss": NaN
+        },
+        {
+          "step": 90,
+          "loss": NaN
+        },
+        {
+          "step": 95,
+          "loss": NaN
+        },
+        {
+          "step": 100,
+          "loss": NaN
+        }
+      ],
+      "final_acc": 0.0,
+      "num_params": 128
+    },
+    "subspace_k16_basis_only": {
+      "log": [
+        {
+          "step": 1,
+          "loss": NaN
+        },
+        {
+          "step": 5,
+          "loss": NaN
+        },
+        {
+          "step": 10,
+          "loss": NaN
+        },
+        {
+          "step": 15,
+          "loss": NaN
+        },
+        {
+          "step": 20,
+          "loss": NaN
+        },
+        {
+          "step": 25,
+          "loss": NaN
+        },
+        {
+          "step": 30,
+          "loss": NaN
+        },
+        {
+          "step": 35,
+          "loss": NaN
+        },
+        {
+          "step": 40,
+          "loss": NaN
+        },
+        {
+          "step": 45,
+          "loss": NaN
+        },
+        {
+          "step": 50,
+          "loss": NaN
+        },
+        {
+          "step": 55,
+          "loss": NaN
+        },
+        {
+          "step": 60,
+          "loss": NaN
+        },
+        {
+          "step": 65,
+          "loss": NaN
+        },
+        {
+          "step": 70,
+          "loss": NaN
+        },
+        {
+          "step": 75,
+          "loss": NaN
+        },
+        {
+          "step": 80,
+          "loss": NaN
+        },
+        {
+          "step": 85,
+          "loss": NaN
+        },
+        {
+          "step": 90,
+          "loss": NaN
+        },
+        {
+          "step": 95,
+          "loss": NaN
+        },
+        {
+          "step": 100,
+          "loss": NaN
+        }
+      ],
+      "final_acc": 0.0,
+      "num_params": 128
+    },
+    "lora_r16": {
+      "log": [
+        {
+          "step": 1,
+          "loss": NaN
+        },
+        {
+          "step": 5,
+          "loss": NaN
+        },
+        {
+          "step": 10,
+          "loss": NaN
+        },
+        {
+          "step": 15,
+          "loss": NaN
+        },
+        {
+          "step": 20,
+          "loss": NaN
+        },
+        {
+          "step": 25,
+          "loss": NaN
+        },
+        {
+          "step": 30,
+          "loss": NaN
+        },
+        {
+          "step": 35,
+          "loss": NaN
+        },
+        {
+          "step": 40,
+          "loss": NaN
+        },
+        {
+          "step": 45,
+          "loss": NaN
+        },
+        {
+          "step": 50,
+          "loss": NaN
+        },
+        {
+          "step": 55,
+          "loss": NaN
+        },
+        {
+          "step": 60,
+          "loss": NaN
+        },
+        {
+          "step": 65,
+          "loss": NaN
+        },
+        {
+          "step": 70,
+          "loss": NaN
+        },
+        {
+          "step": 75,
+          "loss": NaN
+        },
+        {
+          "step": 80,
+          "loss": NaN
+        },
+        {
+          "step": 85,
+          "loss": NaN
+        },
+        {
+          "step": 90,
+          "loss": NaN
+        },
+        {
+          "step": 95,
+          "loss": NaN
+        },
+        {
+          "step": 100,
+          "loss": NaN
+        }
+      ],
+      "final_acc": 0.0,
+      "num_params": 1048576
+    },
+    "held_out_pretrained_lora": {
+      "final_acc": 0.0,
+      "num_params": 0
+    },
+    "base": {
+      "final_acc": 0.0,
+      "num_params": 0
+    }
+  }
+}

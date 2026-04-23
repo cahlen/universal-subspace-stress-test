@@ -1,0 +1,2792 @@
+[
+  {
+    "held_out": "Lots-of-LoRAs__Mistral-7B-Instruct-v0.2-4b-r16-task020",
+    "task_id": "task020",
+    "n_fit": 99,
+    "ks": [
+      1,
+      4,
+      8,
+      16,
+      32,
+      64,
+      96
+    ],
+    "weight_rel_err": {
+      "1": 1.0797814325765802,
+      "4": 1.0748100043118138,
+      "8": 1.0723104846284006,
+      "16": 1.0661505183395366,
+      "32": 1.0602164788712762,
+      "64": 1.032410043558397,
+      "96": 1.0158961948148364
+    },
+    "base_acc": 0.85,
+    "orig_acc": 0.95,
+    "proj_acc": {
+      "1": 0.8,
+      "4": 0.8,
+      "8": 0.8,
+      "16": 0.8,
+      "32": 0.8,
+      "64": 0.8,
+      "96": 0.85
+    },
+    "base_examples": [
+      {
+        "gold": "Yes.",
+        "pred": "Answer: No.",
+        "match": false
+      },
+      {
+        "gold": "No.",
+        "pred": "Answer: No.",
+        "match": true
+      },
+      {
+        "gold": "No.",
+        "pred": "Answer: No. The sentence does not provide any information about the frequency of",
+        "match": true
+      },
+      {
+        "gold": "No.",
+        "pred": "Answer: No. The sentence does not provide enough information to answer the quest",
+        "match": true
+      },
+      {
+        "gold": "No.",
+        "pred": "Answer: No. The sentence does not explicitly state when the subpoena will be gra",
+        "match": true
+      }
+    ],
+    "orig_examples": [
+      {
+        "gold": "Yes.",
+        "pred": "No.",
+        "match": false
+      },
+      {
+        "gold": "No.",
+        "pred": "No.",
+        "match": true
+      },
+      {
+        "gold": "No.",
+        "pred": "No.",
+        "match": true
+      },
+      {
+        "gold": "No.",
+        "pred": "No.",
+        "match": true
+      },
+      {
+        "gold": "No.",
+        "pred": "No.",
+        "match": true
+      }
+    ],
+    "proj_examples": {
+      "1": [
+        {
+          "gold": "Yes.",
+          "pred": "No.",
+          "match": false
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        }
+      ],
+      "4": [
+        {
+          "gold": "Yes.",
+          "pred": "No.",
+          "match": false
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        }
+      ],
+      "8": [
+        {
+          "gold": "Yes.",
+          "pred": "No.",
+          "match": false
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        }
+      ],
+      "16": [
+        {
+          "gold": "Yes.",
+          "pred": "No.",
+          "match": false
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        }
+      ],
+      "32": [
+        {
+          "gold": "Yes.",
+          "pred": "No.",
+          "match": false
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        }
+      ],
+      "64": [
+        {
+          "gold": "Yes.",
+          "pred": "No.",
+          "match": false
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        }
+      ],
+      "96": [
+        {
+          "gold": "Yes.",
+          "pred": "No.",
+          "match": false
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        }
+      ]
+    }
+  },
+  {
+    "held_out": "Lots-of-LoRAs__Mistral-7B-Instruct-v0.2-4b-r16-task022",
+    "task_id": "task022",
+    "n_fit": 99,
+    "ks": [
+      1,
+      4,
+      8,
+      16,
+      32,
+      64,
+      96
+    ],
+    "weight_rel_err": {
+      "1": 1.1192730962401876,
+      "4": 1.1106151778911766,
+      "8": 1.1060957328497796,
+      "16": 1.095336526010529,
+      "32": 1.0850722214713018,
+      "64": 1.0369866865105148,
+      "96": 1.0007112965221359
+    },
+    "base_acc": 0.7,
+    "orig_acc": 1.0,
+    "proj_acc": {
+      "1": 0.8,
+      "4": 0.8,
+      "8": 0.8,
+      "16": 0.8,
+      "32": 0.8,
+      "64": 0.75,
+      "96": 0.7
+    },
+    "base_examples": [
+      {
+        "gold": "No.",
+        "pred": "Answer: No.",
+        "match": true
+      },
+      {
+        "gold": "No.",
+        "pred": "Answer: No.",
+        "match": true
+      },
+      {
+        "gold": "Yes.",
+        "pred": "Answer: No. The context is about a person's experience with a woman who used to",
+        "match": false
+      },
+      {
+        "gold": "No.",
+        "pred": "Answer: Yes.",
+        "match": false
+      },
+      {
+        "gold": "No.",
+        "pred": "Answer: No.",
+        "match": true
+      }
+    ],
+    "orig_examples": [
+      {
+        "gold": "No.",
+        "pred": "No.",
+        "match": true
+      },
+      {
+        "gold": "No.",
+        "pred": "No.",
+        "match": true
+      },
+      {
+        "gold": "Yes.",
+        "pred": "Yes.",
+        "match": true
+      },
+      {
+        "gold": "No.",
+        "pred": "No.",
+        "match": true
+      },
+      {
+        "gold": "No.",
+        "pred": "No.",
+        "match": true
+      }
+    ],
+    "proj_examples": {
+      "1": [
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "Yes.",
+          "pred": "No.",
+          "match": false
+        },
+        {
+          "gold": "No.",
+          "pred": "Yes.",
+          "match": false
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        }
+      ],
+      "4": [
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "Yes.",
+          "pred": "No.",
+          "match": false
+        },
+        {
+          "gold": "No.",
+          "pred": "Yes.",
+          "match": false
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        }
+      ],
+      "8": [
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "Yes.",
+          "pred": "No.",
+          "match": false
+        },
+        {
+          "gold": "No.",
+          "pred": "Yes.",
+          "match": false
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        }
+      ],
+      "16": [
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "Yes.",
+          "pred": "No.",
+          "match": false
+        },
+        {
+          "gold": "No.",
+          "pred": "Yes.",
+          "match": false
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        }
+      ],
+      "32": [
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "Yes.",
+          "pred": "No.",
+          "match": false
+        },
+        {
+          "gold": "No.",
+          "pred": "Yes.",
+          "match": false
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        }
+      ],
+      "64": [
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "Yes.",
+          "pred": "No.",
+          "match": false
+        },
+        {
+          "gold": "No.",
+          "pred": "Yes.",
+          "match": false
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        }
+      ],
+      "96": [
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        },
+        {
+          "gold": "Yes.",
+          "pred": "No.",
+          "match": false
+        },
+        {
+          "gold": "No.",
+          "pred": "Yes.",
+          "match": false
+        },
+        {
+          "gold": "No.",
+          "pred": "No.",
+          "match": true
+        }
+      ]
+    }
+  },
+  {
+    "held_out": "Lots-of-LoRAs__Mistral-7B-Instruct-v0.2-4b-r16-task025",
+    "task_id": "task025",
+    "n_fit": 99,
+    "ks": [
+      1,
+      4,
+      8,
+      16,
+      32,
+      64,
+      96
+    ],
+    "weight_rel_err": {
+      "1": 1.0039555369673367,
+      "4": 1.0036832927362997,
+      "8": 1.0035482640948454,
+      "16": 1.0032133982283324,
+      "32": 1.0028787242284023,
+      "64": 1.0014123959001593,
+      "96": 1.0006698734759152
+    },
+    "base_acc": 0.0,
+    "orig_acc": 0.05,
+    "proj_acc": {
+      "1": 0.0,
+      "4": 0.0,
+      "8": 0.0,
+      "16": 0.0,
+      "32": 0.0,
+      "64": 0.0,
+      "96": 0.0
+    },
+    "base_examples": [
+      {
+        "gold": "They got a big trophy for it .",
+        "pred": "A) They were not expecting to win .\nB) They did not have enough time to prepare",
+        "match": false
+      },
+      {
+        "gold": "The speaker is not offered the position .",
+        "pred": "A) The speaker declines the offer and asks for a higher salary.\nB) The speaker",
+        "match": false
+      },
+      {
+        "gold": "He would feel happy .",
+        "pred": "A) He would feel relieved.\nB) He would feel anxious.\nC) He would",
+        "match": false
+      },
+      {
+        "gold": "he thinks less money should be put in the healthcare systems.",
+        "pred": "A) He is concerned about the reviews of the healthcare system in the United Stat",
+        "match": false
+      },
+      {
+        "gold": "I wanted to eat a lot of food .",
+        "pred": "To craft an incorrect answer, I would say:\nI went to the game to eat a lot",
+        "match": false
+      }
+    ],
+    "orig_examples": [
+      {
+        "gold": "They got a big trophy for it .",
+        "pred": "They are a professional .",
+        "match": false
+      },
+      {
+        "gold": "The speaker is not offered the position .",
+        "pred": "The speaker does n't accept the pay .",
+        "match": false
+      },
+      {
+        "gold": "He would feel happy .",
+        "pred": "He would feel happy .",
+        "match": true
+      },
+      {
+        "gold": "he thinks less money should be put in the healthcare systems.",
+        "pred": "he is concerned about the healthcare of Germany.",
+        "match": false
+      },
+      {
+        "gold": "I wanted to eat a lot of food .",
+        "pred": "To eat a lot of food .",
+        "match": false
+      }
+    ],
+    "proj_examples": {
+      "1": [
+        {
+          "gold": "They got a big trophy for it .",
+          "pred": "They were happy with the perfect score .",
+          "match": false
+        },
+        {
+          "gold": "The speaker is not offered the position .",
+          "pred": "The speaker declines the pay .",
+          "match": false
+        },
+        {
+          "gold": "He would feel happy .",
+          "pred": "He would feel pain .",
+          "match": false
+        },
+        {
+          "gold": "he thinks less money should be put in the healthcare systems.",
+          "pred": "He is concerned about the cost of healthcare in the United States.",
+          "match": false
+        },
+        {
+          "gold": "I wanted to eat a lot of food .",
+          "pred": "To eat a lot and get sick.",
+          "match": false
+        }
+      ],
+      "4": [
+        {
+          "gold": "They got a big trophy for it .",
+          "pred": "They were happy with the perfect score .",
+          "match": false
+        },
+        {
+          "gold": "The speaker is not offered the position .",
+          "pred": "The speaker declines the pay .",
+          "match": false
+        },
+        {
+          "gold": "He would feel happy .",
+          "pred": "He would feel pain .",
+          "match": false
+        },
+        {
+          "gold": "he thinks less money should be put in the healthcare systems.",
+          "pred": "He is concerned about the cost of healthcare in the United States.",
+          "match": false
+        },
+        {
+          "gold": "I wanted to eat a lot of food .",
+          "pred": "To eat a lot and have fun with friends .",
+          "match": false
+        }
+      ],
+      "8": [
+        {
+          "gold": "They got a big trophy for it .",
+          "pred": "They worked hard for it and it paid off.",
+          "match": false
+        },
+        {
+          "gold": "The speaker is not offered the position .",
+          "pred": "The speaker declines the pay .",
+          "match": false
+        },
+        {
+          "gold": "He would feel happy .",
+          "pred": "He would feel pain .",
+          "match": false
+        },
+        {
+          "gold": "he thinks less money should be put in the healthcare systems.",
+          "pred": "He is concerned about the cost of healthcare in the United States.",
+          "match": false
+        },
+        {
+          "gold": "I wanted to eat a lot of food .",
+          "pred": "To eat a lot and get sick.",
+          "match": false
+        }
+      ],
+      "16": [
+        {
+          "gold": "They got a big trophy for it .",
+          "pred": "They were not expecting to win .",
+          "match": false
+        },
+        {
+          "gold": "The speaker is not offered the position .",
+          "pred": "The speaker declines the pay .",
+          "match": false
+        },
+        {
+          "gold": "He would feel happy .",
+          "pred": "He would feel pain .",
+          "match": false
+        },
+        {
+          "gold": "he thinks less money should be put in the healthcare systems.",
+          "pred": "He is concerned about the cost of healthcare in the United States.",
+          "match": false
+        },
+        {
+          "gold": "I wanted to eat a lot of food .",
+          "pred": "To eat a lot and have fun with friends .",
+          "match": false
+        }
+      ],
+      "32": [
+        {
+          "gold": "They got a big trophy for it .",
+          "pred": "They were not expecting to win .",
+          "match": false
+        },
+        {
+          "gold": "The speaker is not offered the position .",
+          "pred": "The speaker declines the pay .",
+          "match": false
+        },
+        {
+          "gold": "He would feel happy .",
+          "pred": "He would feel pain .",
+          "match": false
+        },
+        {
+          "gold": "he thinks less money should be put in the healthcare systems.",
+          "pred": "He is concerned about the cost of healthcare in the United States.",
+          "match": false
+        },
+        {
+          "gold": "I wanted to eat a lot of food .",
+          "pred": "To eat a lot and get sick.",
+          "match": false
+        }
+      ],
+      "64": [
+        {
+          "gold": "They got a big trophy for it .",
+          "pred": "They didn't value the win for the win itself, but for the preparation and hard w",
+          "match": false
+        },
+        {
+          "gold": "The speaker is not offered the position .",
+          "pred": "The speaker declines the pay .",
+          "match": false
+        },
+        {
+          "gold": "He would feel happy .",
+          "pred": "He would feel pain.",
+          "match": false
+        },
+        {
+          "gold": "he thinks less money should be put in the healthcare systems.",
+          "pred": "he is concerned about the reviews of the healthcare system in the United States.",
+          "match": false
+        },
+        {
+          "gold": "I wanted to eat a lot of food .",
+          "pred": "To eat more and get sick.",
+          "match": false
+        }
+      ],
+      "96": [
+        {
+          "gold": "They got a big trophy for it .",
+          "pred": "They didn't value the win for the win itself, but for the preparation that went ",
+          "match": false
+        },
+        {
+          "gold": "The speaker is not offered the position .",
+          "pred": "The speaker declines the pay.",
+          "match": false
+        },
+        {
+          "gold": "He would feel happy .",
+          "pred": "He would feel pain.",
+          "match": false
+        },
+        {
+          "gold": "he thinks less money should be put in the healthcare systems.",
+          "pred": "he is concerned about the reviews of the healthcare system in the United States.",
+          "match": false
+        },
+        {
+          "gold": "I wanted to eat a lot of food .",
+          "pred": "To enjoy the game with friends.",
+          "match": false
+        }
+      ]
+    }
+  },
+  {
+    "held_out": "Lots-of-LoRAs__Mistral-7B-Instruct-v0.2-4b-r16-task033",
+    "task_id": "task033",
+    "n_fit": 99,
+    "ks": [
+      1,
+      4,
+      8,
+      16,
+      32,
+      64,
+      96
+    ],
+    "weight_rel_err": {
+      "1": 1.0042520308651444,
+      "4": 1.0039565503350525,
+      "8": 1.003803728145438,
+      "16": 1.003418918772139,
+      "32": 1.0030546577172086,
+      "64": 1.0014447902061046,
+      "96": 1.0006434024348672
+    },
+    "base_acc": 0.45,
+    "orig_acc": 0.95,
+    "proj_acc": {
+      "1": 0.55,
+      "4": 0.55,
+      "8": 0.55,
+      "16": 0.55,
+      "32": 0.55,
+      "64": 0.65,
+      "96": 0.6
+    },
+    "base_examples": [
+      {
+        "gold": "orange",
+        "pred": "Answer: orange.",
+        "match": true
+      },
+      {
+        "gold": "card",
+        "pred": "Answer: business card.",
+        "match": false
+      },
+      {
+        "gold": "garden",
+        "pred": "Answer: field.\n\nExplanation: The question asks for the object that was dry",
+        "match": false
+      },
+      {
+        "gold": "pantry",
+        "pred": "Answer: pantry.",
+        "match": true
+      },
+      {
+        "gold": "Tent",
+        "pred": "Answer: tent",
+        "match": true
+      }
+    ],
+    "orig_examples": [
+      {
+        "gold": "orange",
+        "pred": "orange",
+        "match": true
+      },
+      {
+        "gold": "card",
+        "pred": "card",
+        "match": true
+      },
+      {
+        "gold": "garden",
+        "pred": "field",
+        "match": false
+      },
+      {
+        "gold": "pantry",
+        "pred": "pantry",
+        "match": true
+      },
+      {
+        "gold": "Tent",
+        "pred": "tent",
+        "match": true
+      }
+    ],
+    "proj_examples": {
+      "1": [
+        {
+          "gold": "orange",
+          "pred": "orange",
+          "match": true
+        },
+        {
+          "gold": "card",
+          "pred": "business card",
+          "match": true
+        },
+        {
+          "gold": "garden",
+          "pred": "field",
+          "match": false
+        },
+        {
+          "gold": "pantry",
+          "pred": "pantry",
+          "match": true
+        },
+        {
+          "gold": "Tent",
+          "pred": "tent",
+          "match": true
+        }
+      ],
+      "4": [
+        {
+          "gold": "orange",
+          "pred": "orange",
+          "match": true
+        },
+        {
+          "gold": "card",
+          "pred": "business card",
+          "match": true
+        },
+        {
+          "gold": "garden",
+          "pred": "field",
+          "match": false
+        },
+        {
+          "gold": "pantry",
+          "pred": "pantry",
+          "match": true
+        },
+        {
+          "gold": "Tent",
+          "pred": "tent",
+          "match": true
+        }
+      ],
+      "8": [
+        {
+          "gold": "orange",
+          "pred": "orange",
+          "match": true
+        },
+        {
+          "gold": "card",
+          "pred": "business card",
+          "match": true
+        },
+        {
+          "gold": "garden",
+          "pred": "field",
+          "match": false
+        },
+        {
+          "gold": "pantry",
+          "pred": "pantry",
+          "match": true
+        },
+        {
+          "gold": "Tent",
+          "pred": "tent",
+          "match": true
+        }
+      ],
+      "16": [
+        {
+          "gold": "orange",
+          "pred": "orange",
+          "match": true
+        },
+        {
+          "gold": "card",
+          "pred": "business card",
+          "match": true
+        },
+        {
+          "gold": "garden",
+          "pred": "field",
+          "match": false
+        },
+        {
+          "gold": "pantry",
+          "pred": "pantry",
+          "match": true
+        },
+        {
+          "gold": "Tent",
+          "pred": "tent",
+          "match": true
+        }
+      ],
+      "32": [
+        {
+          "gold": "orange",
+          "pred": "orange",
+          "match": true
+        },
+        {
+          "gold": "card",
+          "pred": "business card",
+          "match": true
+        },
+        {
+          "gold": "garden",
+          "pred": "field",
+          "match": false
+        },
+        {
+          "gold": "pantry",
+          "pred": "pantry",
+          "match": true
+        },
+        {
+          "gold": "Tent",
+          "pred": "tent",
+          "match": true
+        }
+      ],
+      "64": [
+        {
+          "gold": "orange",
+          "pred": "orange",
+          "match": true
+        },
+        {
+          "gold": "card",
+          "pred": "business card",
+          "match": true
+        },
+        {
+          "gold": "garden",
+          "pred": "field",
+          "match": false
+        },
+        {
+          "gold": "pantry",
+          "pred": "pantry",
+          "match": true
+        },
+        {
+          "gold": "Tent",
+          "pred": "tent",
+          "match": true
+        }
+      ],
+      "96": [
+        {
+          "gold": "orange",
+          "pred": "orange",
+          "match": true
+        },
+        {
+          "gold": "card",
+          "pred": "business card",
+          "match": true
+        },
+        {
+          "gold": "garden",
+          "pred": "field",
+          "match": false
+        },
+        {
+          "gold": "pantry",
+          "pred": "pantry",
+          "match": true
+        },
+        {
+          "gold": "Tent",
+          "pred": "tent",
+          "match": true
+        }
+      ]
+    }
+  },
+  {
+    "held_out": "Lots-of-LoRAs__Mistral-7B-Instruct-v0.2-4b-r16-task034",
+    "task_id": "task034",
+    "n_fit": 99,
+    "ks": [
+      1,
+      4,
+      8,
+      16,
+      32,
+      64,
+      96
+    ],
+    "weight_rel_err": {
+      "1": 1.004360997816077,
+      "4": 1.0040647580382496,
+      "8": 1.003917916773147,
+      "16": 1.0035618935759427,
+      "32": 1.0031953762444739,
+      "64": 1.0015831646311084,
+      "96": 1.0007743517032481
+    },
+    "base_acc": 0.05,
+    "orig_acc": 0.85,
+    "proj_acc": {
+      "1": 0.6,
+      "4": 0.6,
+      "8": 0.6,
+      "16": 0.6,
+      "32": 0.6,
+      "64": 0.6,
+      "96": 0.6
+    },
+    "base_examples": [
+      {
+        "gold": "The clothing in the north was warmer than the clothing in the south because there was more snow in the _ .",
+        "pred": "Your question: The clothing in the north was warmer than the clothing in the sou",
+        "match": false
+      },
+      {
+        "gold": "John removed the molding from the window, but left the molding around the door, because he wanted to preserve the look of the _ .",
+        "pred": "Your question: John removed the molding from the window, but left the molding ar",
+        "match": false
+      },
+      {
+        "gold": "The storm was severe leading them to seek shelter under a bridge. The _ was sturdy.",
+        "pred": "Your Turn:\nInput: Context Word: heavy.\nQuestion: The backpack was heavy, making",
+        "match": false
+      },
+      {
+        "gold": "The handiwork was noted as being some of the best sewing and crafting that the world has ever seen. The _ was done with thread.",
+        "pred": "Question: The handiwork was noted as being some of the best sewing and crafting ",
+        "match": false
+      },
+      {
+        "gold": "The woman settled for the tangerines, although she has wanted oranges, because the _ were available.",
+        "pred": "Your Turn:\nInput: Context Word: heavy.\nQuestion: The man could barely lift the",
+        "match": false
+      }
+    ],
+    "orig_examples": [
+      {
+        "gold": "The clothing in the north was warmer than the clothing in the south because there was more snow in the _ .",
+        "pred": "The clothing in the north was warmer than the clothing in the south because ther",
+        "match": true
+      },
+      {
+        "gold": "John removed the molding from the window, but left the molding around the door, because he wanted to preserve the look of the _ .",
+        "pred": "John removed the molding from the window, but left the molding around the door, ",
+        "match": true
+      },
+      {
+        "gold": "The storm was severe leading them to seek shelter under a bridge. The _ was sturdy.",
+        "pred": "The storm was severe leading them to seek shelter under a bridge. The _ was stur",
+        "match": true
+      },
+      {
+        "gold": "The handiwork was noted as being some of the best sewing and crafting that the world has ever seen. The _ was done with thread.",
+        "pred": "The handiwork was noted as being some of the best sewing and crafting that the w",
+        "match": true
+      },
+      {
+        "gold": "The woman settled for the tangerines, although she has wanted oranges, because the _ were available.",
+        "pred": "The woman settled for the tangerines, although she has wanted oranges, because t",
+        "match": true
+      }
+    ],
+    "proj_examples": {
+      "1": [
+        {
+          "gold": "The clothing in the north was warmer than the clothing in the south because there was more snow in the _ .",
+          "pred": "The clothing in the north was warmer than the clothing in the south because ther",
+          "match": false
+        },
+        {
+          "gold": "John removed the molding from the window, but left the molding around the door, because he wanted to preserve the look of the _ .",
+          "pred": "John removed the molding from the window, but left the molding around the door, ",
+          "match": true
+        },
+        {
+          "gold": "The storm was severe leading them to seek shelter under a bridge. The _ was sturdy.",
+          "pred": "The storm was severe leading them to seek shelter under a bridge. The _ was calm",
+          "match": false
+        },
+        {
+          "gold": "The handiwork was noted as being some of the best sewing and crafting that the world has ever seen. The _ was done with thread.",
+          "pred": "The handiwork was noted as being some of the best sewing and crafting that the w",
+          "match": true
+        },
+        {
+          "gold": "The woman settled for the tangerines, although she has wanted oranges, because the _ were available.",
+          "pred": "The woman settled for the tangerines, although she has wanted oranges, because t",
+          "match": true
+        }
+      ],
+      "4": [
+        {
+          "gold": "The clothing in the north was warmer than the clothing in the south because there was more snow in the _ .",
+          "pred": "The clothing in the north was warmer than the clothing in the south because ther",
+          "match": false
+        },
+        {
+          "gold": "John removed the molding from the window, but left the molding around the door, because he wanted to preserve the look of the _ .",
+          "pred": "John removed the molding from the window, but left the molding around the door, ",
+          "match": true
+        },
+        {
+          "gold": "The storm was severe leading them to seek shelter under a bridge. The _ was sturdy.",
+          "pred": "The storm was severe leading them to seek shelter under a bridge. The _ was calm",
+          "match": false
+        },
+        {
+          "gold": "The handiwork was noted as being some of the best sewing and crafting that the world has ever seen. The _ was done with thread.",
+          "pred": "The handiwork was noted as being some of the best sewing and crafting that the w",
+          "match": true
+        },
+        {
+          "gold": "The woman settled for the tangerines, although she has wanted oranges, because the _ were available.",
+          "pred": "The woman settled for the tangerines, although she has wanted oranges, because t",
+          "match": true
+        }
+      ],
+      "8": [
+        {
+          "gold": "The clothing in the north was warmer than the clothing in the south because there was more snow in the _ .",
+          "pred": "The clothing in the north was warmer than the clothing in the south because ther",
+          "match": false
+        },
+        {
+          "gold": "John removed the molding from the window, but left the molding around the door, because he wanted to preserve the look of the _ .",
+          "pred": "John removed the molding from the window, but left the molding around the door, ",
+          "match": true
+        },
+        {
+          "gold": "The storm was severe leading them to seek shelter under a bridge. The _ was sturdy.",
+          "pred": "The storm was severe leading them to seek shelter under a bridge. The _ was calm",
+          "match": false
+        },
+        {
+          "gold": "The handiwork was noted as being some of the best sewing and crafting that the world has ever seen. The _ was done with thread.",
+          "pred": "The handiwork was noted as being some of the best sewing and crafting that the w",
+          "match": true
+        },
+        {
+          "gold": "The woman settled for the tangerines, although she has wanted oranges, because the _ were available.",
+          "pred": "The woman settled for the tangerines, although she has wanted oranges, because t",
+          "match": true
+        }
+      ],
+      "16": [
+        {
+          "gold": "The clothing in the north was warmer than the clothing in the south because there was more snow in the _ .",
+          "pred": "The clothing in the north was warmer than the clothing in the south because ther",
+          "match": false
+        },
+        {
+          "gold": "John removed the molding from the window, but left the molding around the door, because he wanted to preserve the look of the _ .",
+          "pred": "John removed the molding from the window, but left the molding around the door, ",
+          "match": true
+        },
+        {
+          "gold": "The storm was severe leading them to seek shelter under a bridge. The _ was sturdy.",
+          "pred": "The storm was severe leading them to seek shelter under a bridge. The _ was calm",
+          "match": false
+        },
+        {
+          "gold": "The handiwork was noted as being some of the best sewing and crafting that the world has ever seen. The _ was done with thread.",
+          "pred": "The handiwork was noted as being some of the best sewing and crafting that the w",
+          "match": true
+        },
+        {
+          "gold": "The woman settled for the tangerines, although she has wanted oranges, because the _ were available.",
+          "pred": "The woman settled for the tangerines, although she has wanted oranges, because t",
+          "match": true
+        }
+      ],
+      "32": [
+        {
+          "gold": "The clothing in the north was warmer than the clothing in the south because there was more snow in the _ .",
+          "pred": "The clothing in the north was warmer than the clothing in the south because ther",
+          "match": false
+        },
+        {
+          "gold": "John removed the molding from the window, but left the molding around the door, because he wanted to preserve the look of the _ .",
+          "pred": "John removed the molding from the window, but left the molding around the door, ",
+          "match": true
+        },
+        {
+          "gold": "The storm was severe leading them to seek shelter under a bridge. The _ was sturdy.",
+          "pred": "The storm was severe leading them to seek shelter under a bridge. The _ was calm",
+          "match": false
+        },
+        {
+          "gold": "The handiwork was noted as being some of the best sewing and crafting that the world has ever seen. The _ was done with thread.",
+          "pred": "The handiwork was noted as being some of the best sewing and crafting that the w",
+          "match": true
+        },
+        {
+          "gold": "The woman settled for the tangerines, although she has wanted oranges, because the _ were available.",
+          "pred": "The woman settled for the tangerines, although she has wanted oranges, because t",
+          "match": true
+        }
+      ],
+      "64": [
+        {
+          "gold": "The clothing in the north was warmer than the clothing in the south because there was more snow in the _ .",
+          "pred": "The clothing in the north was warmer than the clothing in the south because ther",
+          "match": false
+        },
+        {
+          "gold": "John removed the molding from the window, but left the molding around the door, because he wanted to preserve the look of the _ .",
+          "pred": "John removed the molding from the window, but left the molding around the door, ",
+          "match": true
+        },
+        {
+          "gold": "The storm was severe leading them to seek shelter under a bridge. The _ was sturdy.",
+          "pred": "The storm was severe leading them to seek shelter under a bridge. The _ was calm",
+          "match": false
+        },
+        {
+          "gold": "The handiwork was noted as being some of the best sewing and crafting that the world has ever seen. The _ was done with thread.",
+          "pred": "The handiwork was noted as being some of the best sewing and crafting that the w",
+          "match": true
+        },
+        {
+          "gold": "The woman settled for the tangerines, although she has wanted oranges, because the _ were available.",
+          "pred": "The woman settled for the tangerines, although she has wanted oranges, because t",
+          "match": true
+        }
+      ],
+      "96": [
+        {
+          "gold": "The clothing in the north was warmer than the clothing in the south because there was more snow in the _ .",
+          "pred": "The clothing in the north was warmer than the clothing in the south because ther",
+          "match": false
+        },
+        {
+          "gold": "John removed the molding from the window, but left the molding around the door, because he wanted to preserve the look of the _ .",
+          "pred": "John removed the molding from the window, but left the molding around the door, ",
+          "match": true
+        },
+        {
+          "gold": "The storm was severe leading them to seek shelter under a bridge. The _ was sturdy.",
+          "pred": "The storm was severe leading them to seek shelter under a bridge. The _ was calm",
+          "match": false
+        },
+        {
+          "gold": "The handiwork was noted as being some of the best sewing and crafting that the world has ever seen. The _ was done with thread.",
+          "pred": "Question: The handiwork was noted as being some of the best sewing and crafting ",
+          "match": false
+        },
+        {
+          "gold": "The woman settled for the tangerines, although she has wanted oranges, because the _ were available.",
+          "pred": "The woman settled for the tangerines, although she has wanted oranges, because t",
+          "match": true
+        }
+      ]
+    }
+  },
+  {
+    "held_out": "Lots-of-LoRAs__Mistral-7B-Instruct-v0.2-4b-r16-task035",
+    "task_id": "task035",
+    "n_fit": 99,
+    "ks": [
+      1,
+      4,
+      8,
+      16,
+      32,
+      64,
+      96
+    ],
+    "weight_rel_err": {
+      "1": 1.001980137519698,
+      "4": 1.0018379131599595,
+      "8": 1.0017675360105232,
+      "16": 1.0015945374151227,
+      "32": 1.0014468904090301,
+      "64": 1.0007131074200675,
+      "96": 1.0003377253729238
+    },
+    "base_acc": 0.1,
+    "orig_acc": 0.65,
+    "proj_acc": {
+      "1": 0.25,
+      "4": 0.25,
+      "8": 0.25,
+      "16": 0.25,
+      "32": 0.3,
+      "64": 0.3,
+      "96": 0.25
+    },
+    "base_examples": [
+      {
+        "gold": "PersonX really liked traveling for months at a time while PersonY was more of a homebody. _ had no use for a house sitter.",
+        "pred": "PersonX really disliked traveling for months at a time while PersonY was always ",
+        "match": false
+      },
+      {
+        "gold": "After getting out of bed PersonX did 100 jumping jacks while PersonY did 100 pullups. _ had excellent arm strength.",
+        "pred": "Question: After getting out of bed PersonX did 100 jumping jacks while PersonY",
+        "match": false
+      },
+      {
+        "gold": "PersonX cut a piece of cake to save for PersonY, and _ felt gratitude toward her for exercising self control.",
+        "pred": "PersonX cut a piece of cake to save for PersonY, but _ felt guilty for hoarding",
+        "match": false
+      },
+      {
+        "gold": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is sullen.",
+        "pred": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is",
+        "match": true
+      },
+      {
+        "gold": "PersonX suffered from a migraine quite often but PersonY did not. _ went to the mall.",
+        "pred": "PersonX did not suffer from a migraine quite often but PersonY did. _ went to th",
+        "match": false
+      }
+    ],
+    "orig_examples": [
+      {
+        "gold": "PersonX really liked traveling for months at a time while PersonY was more of a homebody. _ had no use for a house sitter.",
+        "pred": "PersonX really liked traveling for months at a time while PersonY was more of a ",
+        "match": true
+      },
+      {
+        "gold": "After getting out of bed PersonX did 100 jumping jacks while PersonY did 100 pullups. _ had excellent arm strength.",
+        "pred": "After getting out of bed PersonX did 100 jumping jacks while PersonY did",
+        "match": true
+      },
+      {
+        "gold": "PersonX cut a piece of cake to save for PersonY, and _ felt gratitude toward her for exercising self control.",
+        "pred": "PersonX cut a piece of cake to save for PersonY, and _ felt grateful for her exe",
+        "match": false
+      },
+      {
+        "gold": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is sullen.",
+        "pred": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is",
+        "match": true
+      },
+      {
+        "gold": "PersonX suffered from a migraine quite often but PersonY did not. _ went to the mall.",
+        "pred": "PersonX suffered from a migraine quite often but PersonY did not. _ went to the ",
+        "match": true
+      }
+    ],
+    "proj_examples": {
+      "1": [
+        {
+          "gold": "PersonX really liked traveling for months at a time while PersonY was more of a homebody. _ had no use for a house sitter.",
+          "pred": "PersonX really liked traveling for months at a time while PersonY was more of a ",
+          "match": true
+        },
+        {
+          "gold": "After getting out of bed PersonX did 100 jumping jacks while PersonY did 100 pullups. _ had excellent arm strength.",
+          "pred": "After getting out of bed PersonX did 100 jumping jacks while PersonY did",
+          "match": true
+        },
+        {
+          "gold": "PersonX cut a piece of cake to save for PersonY, and _ felt gratitude toward her for exercising self control.",
+          "pred": "PersonX cut a piece of cake to save for PersonY, but _ felt guilty for not shari",
+          "match": false
+        },
+        {
+          "gold": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is sullen.",
+          "pred": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is",
+          "match": true
+        },
+        {
+          "gold": "PersonX suffered from a migraine quite often but PersonY did not. _ went to the mall.",
+          "pred": "PersonX did not suffer from a migraine quite often but PersonY did. _ went to th",
+          "match": false
+        }
+      ],
+      "4": [
+        {
+          "gold": "PersonX really liked traveling for months at a time while PersonY was more of a homebody. _ had no use for a house sitter.",
+          "pred": "PersonX really liked traveling for months at a time while PersonY was more of a ",
+          "match": true
+        },
+        {
+          "gold": "After getting out of bed PersonX did 100 jumping jacks while PersonY did 100 pullups. _ had excellent arm strength.",
+          "pred": "After getting out of bed PersonX did 100 jumping jacks while PersonY did",
+          "match": true
+        },
+        {
+          "gold": "PersonX cut a piece of cake to save for PersonY, and _ felt gratitude toward her for exercising self control.",
+          "pred": "PersonX cut a piece of cake to save for PersonY, but _ felt guilty for not shari",
+          "match": false
+        },
+        {
+          "gold": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is sullen.",
+          "pred": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is",
+          "match": true
+        },
+        {
+          "gold": "PersonX suffered from a migraine quite often but PersonY did not. _ went to the mall.",
+          "pred": "PersonX did not suffer from a migraine quite often but PersonY did. _ went to th",
+          "match": false
+        }
+      ],
+      "8": [
+        {
+          "gold": "PersonX really liked traveling for months at a time while PersonY was more of a homebody. _ had no use for a house sitter.",
+          "pred": "PersonX really liked traveling for months at a time while PersonY was more of a ",
+          "match": true
+        },
+        {
+          "gold": "After getting out of bed PersonX did 100 jumping jacks while PersonY did 100 pullups. _ had excellent arm strength.",
+          "pred": "After getting out of bed PersonX did 100 jumping jacks while PersonY did",
+          "match": true
+        },
+        {
+          "gold": "PersonX cut a piece of cake to save for PersonY, and _ felt gratitude toward her for exercising self control.",
+          "pred": "PersonX cut a piece of cake to save for PersonY, but _ felt guilty for not shari",
+          "match": false
+        },
+        {
+          "gold": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is sullen.",
+          "pred": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is",
+          "match": true
+        },
+        {
+          "gold": "PersonX suffered from a migraine quite often but PersonY did not. _ went to the mall.",
+          "pred": "PersonX did not suffer from a migraine quite often but PersonY did. _ went to th",
+          "match": false
+        }
+      ],
+      "16": [
+        {
+          "gold": "PersonX really liked traveling for months at a time while PersonY was more of a homebody. _ had no use for a house sitter.",
+          "pred": "PersonX really liked traveling for months at a time while PersonY was more of a ",
+          "match": true
+        },
+        {
+          "gold": "After getting out of bed PersonX did 100 jumping jacks while PersonY did 100 pullups. _ had excellent arm strength.",
+          "pred": "After getting out of bed PersonX did 100 jumping jacks while PersonY did",
+          "match": true
+        },
+        {
+          "gold": "PersonX cut a piece of cake to save for PersonY, and _ felt gratitude toward her for exercising self control.",
+          "pred": "PersonX cut a piece of cake to save for PersonY, but _ felt guilty for not shari",
+          "match": false
+        },
+        {
+          "gold": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is sullen.",
+          "pred": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is",
+          "match": true
+        },
+        {
+          "gold": "PersonX suffered from a migraine quite often but PersonY did not. _ went to the mall.",
+          "pred": "PersonX did not suffer from a migraine quite often but PersonY did. _ went to th",
+          "match": false
+        }
+      ],
+      "32": [
+        {
+          "gold": "PersonX really liked traveling for months at a time while PersonY was more of a homebody. _ had no use for a house sitter.",
+          "pred": "PersonX really liked traveling for months at a time while PersonY was more of a ",
+          "match": true
+        },
+        {
+          "gold": "After getting out of bed PersonX did 100 jumping jacks while PersonY did 100 pullups. _ had excellent arm strength.",
+          "pred": "After getting out of bed PersonX did 100 jumping jacks while PersonY did",
+          "match": true
+        },
+        {
+          "gold": "PersonX cut a piece of cake to save for PersonY, and _ felt gratitude toward her for exercising self control.",
+          "pred": "PersonX cut a piece of cake to save for PersonY, but _ felt guilty for not shari",
+          "match": false
+        },
+        {
+          "gold": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is sullen.",
+          "pred": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is",
+          "match": true
+        },
+        {
+          "gold": "PersonX suffered from a migraine quite often but PersonY did not. _ went to the mall.",
+          "pred": "PersonX did not suffer from a migraine quite often but PersonY did. _ went to th",
+          "match": false
+        }
+      ],
+      "64": [
+        {
+          "gold": "PersonX really liked traveling for months at a time while PersonY was more of a homebody. _ had no use for a house sitter.",
+          "pred": "PersonX really liked traveling for months at a time while PersonY was more of a ",
+          "match": true
+        },
+        {
+          "gold": "After getting out of bed PersonX did 100 jumping jacks while PersonY did 100 pullups. _ had excellent arm strength.",
+          "pred": "After getting out of bed PersonX did 100 jumping jacks while PersonY did",
+          "match": true
+        },
+        {
+          "gold": "PersonX cut a piece of cake to save for PersonY, and _ felt gratitude toward her for exercising self control.",
+          "pred": "PersonX cut a piece of cake to save for PersonY, but _ felt guilty for not shari",
+          "match": false
+        },
+        {
+          "gold": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is sullen.",
+          "pred": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is",
+          "match": true
+        },
+        {
+          "gold": "PersonX suffered from a migraine quite often but PersonY did not. _ went to the mall.",
+          "pred": "PersonX did not suffer from a migraine quite often but PersonY did. _ went to th",
+          "match": false
+        }
+      ],
+      "96": [
+        {
+          "gold": "PersonX really liked traveling for months at a time while PersonY was more of a homebody. _ had no use for a house sitter.",
+          "pred": "PersonX really disliked traveling for months at a time while PersonY was more of",
+          "match": false
+        },
+        {
+          "gold": "After getting out of bed PersonX did 100 jumping jacks while PersonY did 100 pullups. _ had excellent arm strength.",
+          "pred": "After getting out of bed PersonX did 100 jumping jacks while PersonY did",
+          "match": true
+        },
+        {
+          "gold": "PersonX cut a piece of cake to save for PersonY, and _ felt gratitude toward her for exercising self control.",
+          "pred": "PersonX cut a piece of cake to save for PersonY, but _ felt guilty for not shari",
+          "match": false
+        },
+        {
+          "gold": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is sullen.",
+          "pred": "PersonX gets to play Peter Pan in the play, but PersonY does not, so _ is",
+          "match": true
+        },
+        {
+          "gold": "PersonX suffered from a migraine quite often but PersonY did not. _ went to the mall.",
+          "pred": "PersonX did not suffer from a migraine quite often but PersonY did. _ went to th",
+          "match": false
+        }
+      ]
+    }
+  },
+  {
+    "held_out": "Lots-of-LoRAs__Mistral-7B-Instruct-v0.2-4b-r16-task036",
+    "task_id": "task036",
+    "n_fit": 99,
+    "ks": [
+      1,
+      4,
+      8,
+      16,
+      32,
+      64,
+      96
+    ],
+    "weight_rel_err": {
+      "1": 1.038735499606831,
+      "4": 1.0362666612902618,
+      "8": 1.0350402758261261,
+      "16": 1.0320070033436113,
+      "32": 1.0290722755594,
+      "64": 1.0156050968398647,
+      "96": 1.0074997619991974
+    },
+    "base_acc": 0.0,
+    "orig_acc": 0.3,
+    "proj_acc": {
+      "1": 0.05,
+      "4": 0.05,
+      "8": 0.05,
+      "16": 0.1,
+      "32": 0.1,
+      "64": 0.05,
+      "96": 0.05
+    },
+    "base_examples": [
+      {
+        "gold": "buried under soil and mud.",
+        "pred": "A) swamp peat formation\nB) soil and mud vegetation\nC) extreme heat",
+        "match": false
+      },
+      {
+        "gold": "adult lungs.",
+        "pred": "A) amphibian development lungs\nB) amphibian transformation gills\nC",
+        "match": false
+      },
+      {
+        "gold": "brain cell die.",
+        "pred": "Answer: brain cells oxygen deprivation.\n\nExplanation: The topic word \"",
+        "match": false
+      },
+      {
+        "gold": "how to make a pulley.",
+        "pred": "A. mechanical lifting pulley\nB. pulley system for heavy objects\nC. pulley",
+        "match": false
+      },
+      {
+        "gold": "force motion.",
+        "pred": "A. acceleration and force\nB. friction and force\nC. force and motion",
+        "match": false
+      }
+    ],
+    "orig_examples": [
+      {
+        "gold": "buried under soil and mud.",
+        "pred": "peat.",
+        "match": false
+      },
+      {
+        "gold": "adult lungs.",
+        "pred": "amphibians.",
+        "match": false
+      },
+      {
+        "gold": "brain cell die.",
+        "pred": "oxygen supply.",
+        "match": false
+      },
+      {
+        "gold": "how to make a pulley.",
+        "pred": "pulley.",
+        "match": false
+      },
+      {
+        "gold": "force motion.",
+        "pred": "force.",
+        "match": true
+      }
+    ],
+    "proj_examples": {
+      "1": [
+        {
+          "gold": "buried under soil and mud.",
+          "pred": "peat formation in swamps.",
+          "match": false
+        },
+        {
+          "gold": "adult lungs.",
+          "pred": "amphibian metamorphosis.",
+          "match": false
+        },
+        {
+          "gold": "brain cell die.",
+          "pred": "oxygen deprivation brain cells.",
+          "match": false
+        },
+        {
+          "gold": "how to make a pulley.",
+          "pred": "lifting pulley system.",
+          "match": false
+        },
+        {
+          "gold": "force motion.",
+          "pred": "force increases speed.",
+          "match": false
+        }
+      ],
+      "4": [
+        {
+          "gold": "buried under soil and mud.",
+          "pred": "peat formation in swamps.",
+          "match": false
+        },
+        {
+          "gold": "adult lungs.",
+          "pred": "amphibian metamorphosis.",
+          "match": false
+        },
+        {
+          "gold": "brain cell die.",
+          "pred": "oxygen deprivation brain cells.",
+          "match": false
+        },
+        {
+          "gold": "how to make a pulley.",
+          "pred": "lifting pulley system.",
+          "match": false
+        },
+        {
+          "gold": "force motion.",
+          "pred": "force increases speed.",
+          "match": false
+        }
+      ],
+      "8": [
+        {
+          "gold": "buried under soil and mud.",
+          "pred": "peat formation in swamps.",
+          "match": false
+        },
+        {
+          "gold": "adult lungs.",
+          "pred": "amphibian metamorphosis.",
+          "match": false
+        },
+        {
+          "gold": "brain cell die.",
+          "pred": "oxygen deprivation brain cells.",
+          "match": false
+        },
+        {
+          "gold": "how to make a pulley.",
+          "pred": "lifting pulley system.",
+          "match": false
+        },
+        {
+          "gold": "force motion.",
+          "pred": "force increases speed.",
+          "match": false
+        }
+      ],
+      "16": [
+        {
+          "gold": "buried under soil and mud.",
+          "pred": "peat formation in swamps.",
+          "match": false
+        },
+        {
+          "gold": "adult lungs.",
+          "pred": "amphibian metamorphosis.",
+          "match": false
+        },
+        {
+          "gold": "brain cell die.",
+          "pred": "oxygen deprivation brain cells.",
+          "match": false
+        },
+        {
+          "gold": "how to make a pulley.",
+          "pred": "lifting pulley system.",
+          "match": false
+        },
+        {
+          "gold": "force motion.",
+          "pred": "force increases speed.",
+          "match": false
+        }
+      ],
+      "32": [
+        {
+          "gold": "buried under soil and mud.",
+          "pred": "peat formation in swamps.",
+          "match": false
+        },
+        {
+          "gold": "adult lungs.",
+          "pred": "amphibian metamorphosis.",
+          "match": false
+        },
+        {
+          "gold": "brain cell die.",
+          "pred": "oxygen deprivation brain cells.",
+          "match": false
+        },
+        {
+          "gold": "how to make a pulley.",
+          "pred": "lifting pulley system.",
+          "match": false
+        },
+        {
+          "gold": "force motion.",
+          "pred": "force increases speed.",
+          "match": false
+        }
+      ],
+      "64": [
+        {
+          "gold": "buried under soil and mud.",
+          "pred": "peat formation in swamps.",
+          "match": false
+        },
+        {
+          "gold": "adult lungs.",
+          "pred": "amphibian metamorphosis.",
+          "match": false
+        },
+        {
+          "gold": "brain cell die.",
+          "pred": "brain cells oxygen supply.",
+          "match": false
+        },
+        {
+          "gold": "how to make a pulley.",
+          "pred": "lifting heavy objects.",
+          "match": false
+        },
+        {
+          "gold": "force motion.",
+          "pred": "force accelerates.",
+          "match": false
+        }
+      ],
+      "96": [
+        {
+          "gold": "buried under soil and mud.",
+          "pred": "peat formation in swamps.",
+          "match": false
+        },
+        {
+          "gold": "adult lungs.",
+          "pred": "amphibian metamorphosis.",
+          "match": false
+        },
+        {
+          "gold": "brain cell die.",
+          "pred": "brain cells oxygen supply.",
+          "match": false
+        },
+        {
+          "gold": "how to make a pulley.",
+          "pred": "lifting heavy objects.",
+          "match": false
+        },
+        {
+          "gold": "force motion.",
+          "pred": "force acceleration.",
+          "match": false
+        }
+      ]
+    }
+  },
+  {
+    "held_out": "Lots-of-LoRAs__Mistral-7B-Instruct-v0.2-4b-r16-task039",
+    "task_id": "task039",
+    "n_fit": 99,
+    "ks": [
+      1,
+      4,
+      8,
+      16,
+      32,
+      64,
+      96
+    ],
+    "weight_rel_err": {
+      "1": 1.0039587299325456,
+      "4": 1.003674207429657,
+      "8": 1.0035280465569472,
+      "16": 1.0031765894928162,
+      "32": 1.002836812840232,
+      "64": 1.0013356568160623,
+      "96": 1.0005954170434501
+    },
+    "base_acc": 0.25,
+    "orig_acc": 0.65,
+    "proj_acc": {
+      "1": 0.65,
+      "4": 0.65,
+      "8": 0.65,
+      "16": 0.65,
+      "32": 0.65,
+      "64": 0.65,
+      "96": 0.65
+    },
+    "base_examples": [
+      {
+        "gold": "another",
+        "pred": "Answer: habitat, animals, another area.",
+        "match": false
+      },
+      {
+        "gold": "painful",
+        "pred": "Answer: Physical activity, painful, can, causes, organisms, be, harmful, Elect",
+        "match": false
+      },
+      {
+        "gold": "Milk",
+        "pred": "Milk, cow's milk.",
+        "match": true
+      },
+      {
+        "gold": "are",
+        "pred": "Answer: gills.",
+        "match": false
+      },
+      {
+        "gold": "easily",
+        "pred": "Answer: soil, water, easily, flows, through.",
+        "match": false
+      }
+    ],
+    "orig_examples": [
+      {
+        "gold": "another",
+        "pred": "move",
+        "match": false
+      },
+      {
+        "gold": "painful",
+        "pred": "painful",
+        "match": true
+      },
+      {
+        "gold": "Milk",
+        "pred": "Milk",
+        "match": true
+      },
+      {
+        "gold": "are",
+        "pred": "water",
+        "match": false
+      },
+      {
+        "gold": "easily",
+        "pred": "soil",
+        "match": false
+      }
+    ],
+    "proj_examples": {
+      "1": [
+        {
+          "gold": "another",
+          "pred": "habitat, animals, move.",
+          "match": false
+        },
+        {
+          "gold": "painful",
+          "pred": "painful, organisms.",
+          "match": true
+        },
+        {
+          "gold": "Milk",
+          "pred": "Milk.",
+          "match": true
+        },
+        {
+          "gold": "are",
+          "pred": "gills.",
+          "match": false
+        },
+        {
+          "gold": "easily",
+          "pred": "permeable, water, easily, flows, through, soil.",
+          "match": false
+        }
+      ],
+      "4": [
+        {
+          "gold": "another",
+          "pred": "habitat, animals, move.",
+          "match": false
+        },
+        {
+          "gold": "painful",
+          "pred": "painful, organisms.",
+          "match": true
+        },
+        {
+          "gold": "Milk",
+          "pred": "Milk.",
+          "match": true
+        },
+        {
+          "gold": "are",
+          "pred": "gills.",
+          "match": false
+        },
+        {
+          "gold": "easily",
+          "pred": "permeable, water, easily, flows, through, soil.",
+          "match": false
+        }
+      ],
+      "8": [
+        {
+          "gold": "another",
+          "pred": "habitat, animals, move.",
+          "match": false
+        },
+        {
+          "gold": "painful",
+          "pred": "painful, organisms.",
+          "match": true
+        },
+        {
+          "gold": "Milk",
+          "pred": "Milk.",
+          "match": true
+        },
+        {
+          "gold": "are",
+          "pred": "gills.",
+          "match": false
+        },
+        {
+          "gold": "easily",
+          "pred": "permeable, water, easily, flows, through, soil.",
+          "match": false
+        }
+      ],
+      "16": [
+        {
+          "gold": "another",
+          "pred": "habitat, animals, another, area.",
+          "match": false
+        },
+        {
+          "gold": "painful",
+          "pred": "painful, organisms.",
+          "match": true
+        },
+        {
+          "gold": "Milk",
+          "pred": "Milk.",
+          "match": true
+        },
+        {
+          "gold": "are",
+          "pred": "gills.",
+          "match": false
+        },
+        {
+          "gold": "easily",
+          "pred": "permeable, water, easily, flows, through, soil.",
+          "match": false
+        }
+      ],
+      "32": [
+        {
+          "gold": "another",
+          "pred": "habitat, animals, another, area.",
+          "match": false
+        },
+        {
+          "gold": "painful",
+          "pred": "painful, organisms.",
+          "match": true
+        },
+        {
+          "gold": "Milk",
+          "pred": "Milk.",
+          "match": true
+        },
+        {
+          "gold": "are",
+          "pred": "gills.",
+          "match": false
+        },
+        {
+          "gold": "easily",
+          "pred": "permeable, water, easily, flows, through, soil.",
+          "match": false
+        }
+      ],
+      "64": [
+        {
+          "gold": "another",
+          "pred": "habitat, animals, another, area.",
+          "match": false
+        },
+        {
+          "gold": "painful",
+          "pred": "painful, organisms.",
+          "match": true
+        },
+        {
+          "gold": "Milk",
+          "pred": "Milk.",
+          "match": true
+        },
+        {
+          "gold": "are",
+          "pred": "gills.",
+          "match": false
+        },
+        {
+          "gold": "easily",
+          "pred": "soil, water.",
+          "match": false
+        }
+      ],
+      "96": [
+        {
+          "gold": "another",
+          "pred": "habitat, animals.",
+          "match": false
+        },
+        {
+          "gold": "painful",
+          "pred": "painful, organisms.",
+          "match": true
+        },
+        {
+          "gold": "Milk",
+          "pred": "Milk, cow's milk.",
+          "match": true
+        },
+        {
+          "gold": "are",
+          "pred": "gills.",
+          "match": false
+        },
+        {
+          "gold": "easily",
+          "pred": "soil, water.",
+          "match": false
+        }
+      ]
+    }
+  },
+  {
+    "held_out": "Lots-of-LoRAs__Mistral-7B-Instruct-v0.2-4b-r16-task044",
+    "task_id": "task044",
+    "n_fit": 99,
+    "ks": [
+      1,
+      4,
+      8,
+      16,
+      32,
+      64,
+      96
+    ],
+    "weight_rel_err": {
+      "1": 1.004829740986214,
+      "4": 1.0042012866195331,
+      "8": 1.0038867340169977,
+      "16": 1.0031915856399716,
+      "32": 1.0024945055917593,
+      "64": 0.9995536070023517,
+      "96": 0.9969871301184171
+    },
+    "base_acc": 0.0,
+    "orig_acc": 0.65,
+    "proj_acc": {
+      "1": 0.0,
+      "4": 0.0,
+      "8": 0.0,
+      "16": 0.0,
+      "32": 0.0,
+      "64": 0.0,
+      "96": 0.05
+    },
+    "base_examples": [
+      {
+        "gold": "describes, parallel, circuit?",
+        "pred": "Answer: electricity flows, more than one pathway.",
+        "match": false
+      },
+      {
+        "gold": "flashlight, mirror.",
+        "pred": "Answer: light energy can be reflected.",
+        "match": false
+      },
+      {
+        "gold": "Freezing, occurs",
+        "pred": "Answer: occurs when a liquid changes to a solid, regardless of temperature.\n\nSo,",
+        "match": false
+      },
+      {
+        "gold": "provide, useable, energy, living, organisms.",
+        "pred": "Answer: primary producers\n\nExplanation: The essential words in the question are ",
+        "match": false
+      },
+      {
+        "gold": "book, molecules, vibrate, force, produced",
+        "pred": "Answer: sound waves.\n\nEssential words: When, book, dropped, wooden",
+        "match": false
+      }
+    ],
+    "orig_examples": [
+      {
+        "gold": "describes, parallel, circuit?",
+        "pred": "describes, parallel, circuit?",
+        "match": true
+      },
+      {
+        "gold": "flashlight, mirror.",
+        "pred": "girl, shining, flashlight, mirror., friend, see, signal",
+        "match": false
+      },
+      {
+        "gold": "Freezing, occurs",
+        "pred": "Freezing, substance, occurs",
+        "match": false
+      },
+      {
+        "gold": "provide, useable, energy, living, organisms.",
+        "pred": "food, chain, provide, useable, energy",
+        "match": false
+      },
+      {
+        "gold": "book, molecules, vibrate, force, produced",
+        "pred": "book, molecules, vibrate, force, produced, vibrations?",
+        "match": true
+      }
+    ],
+    "proj_examples": {
+      "1": [
+        {
+          "gold": "describes, parallel, circuit?",
+          "pred": "electricity, flows, more than one pathway",
+          "match": false
+        },
+        {
+          "gold": "flashlight, mirror.",
+          "pred": "light energy, reflect, signal, friend",
+          "match": false
+        },
+        {
+          "gold": "Freezing, occurs",
+          "pred": "when a liquid changes to a solid, regardless of temperature",
+          "match": false
+        },
+        {
+          "gold": "provide, useable, energy, living, organisms.",
+          "pred": "primary producers",
+          "match": false
+        },
+        {
+          "gold": "book, molecules, vibrate, force, produced",
+          "pred": "sound waves",
+          "match": false
+        }
+      ],
+      "4": [
+        {
+          "gold": "describes, parallel, circuit?",
+          "pred": "electricity, flows, more than one pathway",
+          "match": false
+        },
+        {
+          "gold": "flashlight, mirror.",
+          "pred": "light energy, reflect, signal, friend",
+          "match": false
+        },
+        {
+          "gold": "Freezing, occurs",
+          "pred": "when a liquid changes to a solid, regardless of temperature",
+          "match": false
+        },
+        {
+          "gold": "provide, useable, energy, living, organisms.",
+          "pred": "primary producers",
+          "match": false
+        },
+        {
+          "gold": "book, molecules, vibrate, force, produced",
+          "pred": "sound waves",
+          "match": false
+        }
+      ],
+      "8": [
+        {
+          "gold": "describes, parallel, circuit?",
+          "pred": "electricity, flows, more than one pathway",
+          "match": false
+        },
+        {
+          "gold": "flashlight, mirror.",
+          "pred": "light energy, reflect, signal, friend",
+          "match": false
+        },
+        {
+          "gold": "Freezing, occurs",
+          "pred": "when a liquid changes to a solid, regardless of temperature",
+          "match": false
+        },
+        {
+          "gold": "provide, useable, energy, living, organisms.",
+          "pred": "primary producers",
+          "match": false
+        },
+        {
+          "gold": "book, molecules, vibrate, force, produced",
+          "pred": "sound waves",
+          "match": false
+        }
+      ],
+      "16": [
+        {
+          "gold": "describes, parallel, circuit?",
+          "pred": "electricity, flows, along, more, than, one, pathway",
+          "match": false
+        },
+        {
+          "gold": "flashlight, mirror.",
+          "pred": "light, reflect, signal, friend",
+          "match": false
+        },
+        {
+          "gold": "Freezing, occurs",
+          "pred": "when a liquid changes to a solid, regardless of temperature",
+          "match": false
+        },
+        {
+          "gold": "provide, useable, energy, living, organisms.",
+          "pred": "primary producers",
+          "match": false
+        },
+        {
+          "gold": "book, molecules, vibrate, force, produced",
+          "pred": "sound waves",
+          "match": false
+        }
+      ],
+      "32": [
+        {
+          "gold": "describes, parallel, circuit?",
+          "pred": "electricity, flows, more than one pathway",
+          "match": false
+        },
+        {
+          "gold": "flashlight, mirror.",
+          "pred": "light, reflect, signal, friend",
+          "match": false
+        },
+        {
+          "gold": "Freezing, occurs",
+          "pred": "when a liquid changes to a solid, regardless of temperature",
+          "match": false
+        },
+        {
+          "gold": "provide, useable, energy, living, organisms.",
+          "pred": "primary producers",
+          "match": false
+        },
+        {
+          "gold": "book, molecules, vibrate, force, produced",
+          "pred": "sound waves",
+          "match": false
+        }
+      ],
+      "64": [
+        {
+          "gold": "describes, parallel, circuit?",
+          "pred": "electricity, flows, more than one pathway",
+          "match": false
+        },
+        {
+          "gold": "flashlight, mirror.",
+          "pred": "light, reflect, signal, friend",
+          "match": false
+        },
+        {
+          "gold": "Freezing, occurs",
+          "pred": "when a liquid changes to a solid, regardless of temperature",
+          "match": false
+        },
+        {
+          "gold": "provide, useable, energy, living, organisms.",
+          "pred": "primary producers",
+          "match": false
+        },
+        {
+          "gold": "book, molecules, vibrate, force, produced",
+          "pred": "sound waves",
+          "match": false
+        }
+      ],
+      "96": [
+        {
+          "gold": "describes, parallel, circuit?",
+          "pred": "electricity, flows, more than one pathway",
+          "match": false
+        },
+        {
+          "gold": "flashlight, mirror.",
+          "pred": "shining, flashlight, mirror, can see, signal, reflect, light energy",
+          "match": true
+        },
+        {
+          "gold": "Freezing, occurs",
+          "pred": "when a liquid changes to a solid, regardless of temperature",
+          "match": false
+        },
+        {
+          "gold": "provide, useable, energy, living, organisms.",
+          "pred": "primary producers",
+          "match": false
+        },
+        {
+          "gold": "book, molecules, vibrate, force, produced",
+          "pred": "sound waves",
+          "match": false
+        }
+      ]
+    }
+  },
+  {
+    "held_out": "Lots-of-LoRAs__Mistral-7B-Instruct-v0.2-4b-r16-task046",
+    "task_id": "task046",
+    "n_fit": 99,
+    "ks": [
+      1,
+      4,
+      8,
+      16,
+      32,
+      64,
+      96
+    ],
+    "weight_rel_err": {
+      "1": 1.0032484976092442,
+      "4": 1.0028022436836719,
+      "8": 1.0025568015110569,
+      "16": 1.0020228937488527,
+      "32": 1.001401067509296,
+      "64": 0.9990016924472617,
+      "96": 0.9965286415751091
+    },
+    "base_acc": 0.55,
+    "orig_acc": 0.8,
+    "proj_acc": {
+      "1": 0.7,
+      "4": 0.7,
+      "8": 0.7,
+      "16": 0.7,
+      "32": 0.7,
+      "64": 0.7,
+      "96": 0.7
+    },
+    "base_examples": [
+      {
+        "gold": "Humans.",
+        "pred": "Description.\n\nExplanation: Tom Robinson is a character in the novel \"To Kill a",
+        "match": false
+      },
+      {
+        "gold": "Money.",
+        "pred": "(10) Money.",
+        "match": true
+      },
+      {
+        "gold": "Quantity.",
+        "pred": "Quantity.",
+        "match": true
+      },
+      {
+        "gold": "Date.",
+        "pred": "Date.",
+        "match": true
+      },
+      {
+        "gold": "Humans.",
+        "pred": "Quantity.",
+        "match": false
+      }
+    ],
+    "orig_examples": [
+      {
+        "gold": "Humans.",
+        "pred": "Humans.",
+        "match": true
+      },
+      {
+        "gold": "Money.",
+        "pred": "Money.",
+        "match": true
+      },
+      {
+        "gold": "Quantity.",
+        "pred": "Quantity.",
+        "match": true
+      },
+      {
+        "gold": "Date.",
+        "pred": "Date.",
+        "match": true
+      },
+      {
+        "gold": "Humans.",
+        "pred": "Quantity.",
+        "match": false
+      }
+    ],
+    "proj_examples": {
+      "1": [
+        {
+          "gold": "Humans.",
+          "pred": "Humans.",
+          "match": true
+        },
+        {
+          "gold": "Money.",
+          "pred": "Money.",
+          "match": true
+        },
+        {
+          "gold": "Quantity.",
+          "pred": "Quantity.",
+          "match": true
+        },
+        {
+          "gold": "Date.",
+          "pred": "Date.",
+          "match": true
+        },
+        {
+          "gold": "Humans.",
+          "pred": "Quantity.",
+          "match": false
+        }
+      ],
+      "4": [
+        {
+          "gold": "Humans.",
+          "pred": "Humans.",
+          "match": true
+        },
+        {
+          "gold": "Money.",
+          "pred": "Money.",
+          "match": true
+        },
+        {
+          "gold": "Quantity.",
+          "pred": "Quantity.",
+          "match": true
+        },
+        {
+          "gold": "Date.",
+          "pred": "Date.",
+          "match": true
+        },
+        {
+          "gold": "Humans.",
+          "pred": "Quantity.",
+          "match": false
+        }
+      ],
+      "8": [
+        {
+          "gold": "Humans.",
+          "pred": "Humans.",
+          "match": true
+        },
+        {
+          "gold": "Money.",
+          "pred": "Money.",
+          "match": true
+        },
+        {
+          "gold": "Quantity.",
+          "pred": "Quantity.",
+          "match": true
+        },
+        {
+          "gold": "Date.",
+          "pred": "Date.",
+          "match": true
+        },
+        {
+          "gold": "Humans.",
+          "pred": "Quantity.",
+          "match": false
+        }
+      ],
+      "16": [
+        {
+          "gold": "Humans.",
+          "pred": "Humans.",
+          "match": true
+        },
+        {
+          "gold": "Money.",
+          "pred": "Money.",
+          "match": true
+        },
+        {
+          "gold": "Quantity.",
+          "pred": "Quantity.",
+          "match": true
+        },
+        {
+          "gold": "Date.",
+          "pred": "Date.",
+          "match": true
+        },
+        {
+          "gold": "Humans.",
+          "pred": "Quantity.",
+          "match": false
+        }
+      ],
+      "32": [
+        {
+          "gold": "Humans.",
+          "pred": "Humans.",
+          "match": true
+        },
+        {
+          "gold": "Money.",
+          "pred": "Money.",
+          "match": true
+        },
+        {
+          "gold": "Quantity.",
+          "pred": "Quantity.",
+          "match": true
+        },
+        {
+          "gold": "Date.",
+          "pred": "Date.",
+          "match": true
+        },
+        {
+          "gold": "Humans.",
+          "pred": "Quantity.",
+          "match": false
+        }
+      ],
+      "64": [
+        {
+          "gold": "Humans.",
+          "pred": "Humans.",
+          "match": true
+        },
+        {
+          "gold": "Money.",
+          "pred": "Money.",
+          "match": true
+        },
+        {
+          "gold": "Quantity.",
+          "pred": "Quantity.",
+          "match": true
+        },
+        {
+          "gold": "Date.",
+          "pred": "Date.",
+          "match": true
+        },
+        {
+          "gold": "Humans.",
+          "pred": "Quantity.",
+          "match": false
+        }
+      ],
+      "96": [
+        {
+          "gold": "Humans.",
+          "pred": "Humans.",
+          "match": true
+        },
+        {
+          "gold": "Money.",
+          "pred": "Money.",
+          "match": true
+        },
+        {
+          "gold": "Quantity.",
+          "pred": "Quantity.",
+          "match": true
+        },
+        {
+          "gold": "Date.",
+          "pred": "Date.",
+          "match": true
+        },
+        {
+          "gold": "Humans.",
+          "pred": "Quantity.",
+          "match": false
+        }
+      ]
+    }
+  }
+]

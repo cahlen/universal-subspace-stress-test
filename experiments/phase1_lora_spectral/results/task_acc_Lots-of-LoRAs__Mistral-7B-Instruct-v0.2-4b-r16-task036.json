@@ -1,0 +1,279 @@
+{
+  "held_out": "Lots-of-LoRAs__Mistral-7B-Instruct-v0.2-4b-r16-task036",
+  "task_id": "task036",
+  "n_fit": 99,
+  "ks": [
+    1,
+    4,
+    8,
+    16,
+    32,
+    64,
+    96
+  ],
+  "weight_rel_err": {
+    "1": 1.038735499606831,
+    "4": 1.0362666612902618,
+    "8": 1.0350402758261261,
+    "16": 1.0320070033436113,
+    "32": 1.0290722755594,
+    "64": 1.0156050968398647,
+    "96": 1.0074997619991974
+  },
+  "base_acc": 0.0,
+  "orig_acc": 0.3,
+  "proj_acc": {
+    "1": 0.05,
+    "4": 0.05,
+    "8": 0.05,
+    "16": 0.1,
+    "32": 0.1,
+    "64": 0.05,
+    "96": 0.05
+  },
+  "base_examples": [
+    {
+      "gold": "buried under soil and mud.",
+      "pred": "A) swamp peat formation\nB) soil and mud vegetation\nC) extreme heat",
+      "match": false
+    },
+    {
+      "gold": "adult lungs.",
+      "pred": "A) amphibian development lungs\nB) amphibian transformation gills\nC",
+      "match": false
+    },
+    {
+      "gold": "brain cell die.",
+      "pred": "Answer: brain cells oxygen deprivation.\n\nExplanation: The topic word \"",
+      "match": false
+    },
+    {
+      "gold": "how to make a pulley.",
+      "pred": "A. mechanical lifting pulley\nB. pulley system for heavy objects\nC. pulley",
+      "match": false
+    },
+    {
+      "gold": "force motion.",
+      "pred": "A. acceleration and force\nB. friction and force\nC. force and motion",
+      "match": false
+    }
+  ],
+  "orig_examples": [
+    {
+      "gold": "buried under soil and mud.",
+      "pred": "peat.",
+      "match": false
+    },
+    {
+      "gold": "adult lungs.",
+      "pred": "amphibians.",
+      "match": false
+    },
+    {
+      "gold": "brain cell die.",
+      "pred": "oxygen supply.",
+      "match": false
+    },
+    {
+      "gold": "how to make a pulley.",
+      "pred": "pulley.",
+      "match": false
+    },
+    {
+      "gold": "force motion.",
+      "pred": "force.",
+      "match": true
+    }
+  ],
+  "proj_examples": {
+    "1": [
+      {
+        "gold": "buried under soil and mud.",
+        "pred": "peat formation in swamps.",
+        "match": false
+      },
+      {
+        "gold": "adult lungs.",
+        "pred": "amphibian metamorphosis.",
+        "match": false
+      },
+      {
+        "gold": "brain cell die.",
+        "pred": "oxygen deprivation brain cells.",
+        "match": false
+      },
+      {
+        "gold": "how to make a pulley.",
+        "pred": "lifting pulley system.",
+        "match": false
+      },
+      {
+        "gold": "force motion.",
+        "pred": "force increases speed.",
+        "match": false
+      }
+    ],
+    "4": [
+      {
+        "gold": "buried under soil and mud.",
+        "pred": "peat formation in swamps.",
+        "match": false
+      },
+      {
+        "gold": "adult lungs.",
+        "pred": "amphibian metamorphosis.",
+        "match": false
+      },
+      {
+        "gold": "brain cell die.",
+        "pred": "oxygen deprivation brain cells.",
+        "match": false
+      },
+      {
+        "gold": "how to make a pulley.",
+        "pred": "lifting pulley system.",
+        "match": false
+      },
+      {
+        "gold": "force motion.",
+        "pred": "force increases speed.",
+        "match": false
+      }
+    ],
+    "8": [
+      {
+        "gold": "buried under soil and mud.",
+        "pred": "peat formation in swamps.",
+        "match": false
+      },
+      {
+        "gold": "adult lungs.",
+        "pred": "amphibian metamorphosis.",
+        "match": false
+      },
+      {
+        "gold": "brain cell die.",
+        "pred": "oxygen deprivation brain cells.",
+        "match": false
+      },
+      {
+        "gold": "how to make a pulley.",
+        "pred": "lifting pulley system.",
+        "match": false
+      },
+      {
+        "gold": "force motion.",
+        "pred": "force increases speed.",
+        "match": false
+      }
+    ],
+    "16": [
+      {
+        "gold": "buried under soil and mud.",
+        "pred": "peat formation in swamps.",
+        "match": false
+      },
+      {
+        "gold": "adult lungs.",
+        "pred": "amphibian metamorphosis.",
+        "match": false
+      },
+      {
+        "gold": "brain cell die.",
+        "pred": "oxygen deprivation brain cells.",
+        "match": false
+      },
+      {
+        "gold": "how to make a pulley.",
+        "pred": "lifting pulley system.",
+        "match": false
+      },
+      {
+        "gold": "force motion.",
+        "pred": "force increases speed.",
+        "match": false
+      }
+    ],
+    "32": [
+      {
+        "gold": "buried under soil and mud.",
+        "pred": "peat formation in swamps.",
+        "match": false
+      },
+      {
+        "gold": "adult lungs.",
+        "pred": "amphibian metamorphosis.",
+        "match": false
+      },
+      {
+        "gold": "brain cell die.",
+        "pred": "oxygen deprivation brain cells.",
+        "match": false
+      },
+      {
+        "gold": "how to make a pulley.",
+        "pred": "lifting pulley system.",
+        "match": false
+      },
+      {
+        "gold": "force motion.",
+        "pred": "force increases speed.",
+        "match": false
+      }
+    ],
+    "64": [
+      {
+        "gold": "buried under soil and mud.",
+        "pred": "peat formation in swamps.",
+        "match": false
+      },
+      {
+        "gold": "adult lungs.",
+        "pred": "amphibian metamorphosis.",
+        "match": false
+      },
+      {
+        "gold": "brain cell die.",
+        "pred": "brain cells oxygen supply.",
+        "match": false
+      },
+      {
+        "gold": "how to make a pulley.",
+        "pred": "lifting heavy objects.",
+        "match": false
+      },
+      {
+        "gold": "force motion.",
+        "pred": "force accelerates.",
+        "match": false
+      }
+    ],
+    "96": [
+      {
+        "gold": "buried under soil and mud.",
+        "pred": "peat formation in swamps.",
+        "match": false
+      },
+      {
+        "gold": "adult lungs.",
+        "pred": "amphibian metamorphosis.",
+        "match": false
+      },
+      {
+        "gold": "brain cell die.",
+        "pred": "brain cells oxygen supply.",
+        "match": false
+      },
+      {
+        "gold": "how to make a pulley.",
+        "pred": "lifting heavy objects.",
+        "match": false
+      },
+      {
+        "gold": "force motion.",
+        "pred": "force acceleration.",
+        "match": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "held_out": "Lots-of-LoRAs__Mistral-7B-Instruct-v0.2-4b-r16-task033",
+  "task_id": "task033",
+  "n_fit": 99,
+  "ks": [
+    1,
+    4,
+    8,
+    16,
+    32,
+    64,
+    96
+  ],
+  "weight_rel_err": {
+    "1": 1.0042520308651444,
+    "4": 1.0039565503350525,
+    "8": 1.003803728145438,
+    "16": 1.003418918772139,
+    "32": 1.0030546577172086,
+    "64": 1.0014447902061046,
+    "96": 1.0006434024348672
+  },
+  "base_acc": 0.45,
+  "orig_acc": 0.95,
+  "proj_acc": {
+    "1": 0.55,
+    "4": 0.55,
+    "8": 0.55,
+    "16": 0.55,
+    "32": 0.55,
+    "64": 0.65,
+    "96": 0.6
+  },
+  "base_examples": [
+    {
+      "gold": "orange",
+      "pred": "Answer: orange.",
+      "match": true
+    },
+    {
+      "gold": "card",
+      "pred": "Answer: business card.",
+      "match": false
+    },
+    {
+      "gold": "garden",
+      "pred": "Answer: field.\n\nExplanation: The question asks for the object that was dry",
+      "match": false
+    },
+    {
+      "gold": "pantry",
+      "pred": "Answer: pantry.",
+      "match": true
+    },
+    {
+      "gold": "Tent",
+      "pred": "Answer: tent",
+      "match": true
+    }
+  ],
+  "orig_examples": [
+    {
+      "gold": "orange",
+      "pred": "orange",
+      "match": true
+    },
+    {
+      "gold": "card",
+      "pred": "card",
+      "match": true
+    },
+    {
+      "gold": "garden",
+      "pred": "field",
+      "match": false
+    },
+    {
+      "gold": "pantry",
+      "pred": "pantry",
+      "match": true
+    },
+    {
+      "gold": "Tent",
+      "pred": "tent",
+      "match": true
+    }
+  ],
+  "proj_examples": {
+    "1": [
+      {
+        "gold": "orange",
+        "pred": "orange",
+        "match": true
+      },
+      {
+        "gold": "card",
+        "pred": "business card",
+        "match": true
+      },
+      {
+        "gold": "garden",
+        "pred": "field",
+        "match": false
+      },
+      {
+        "gold": "pantry",
+        "pred": "pantry",
+        "match": true
+      },
+      {
+        "gold": "Tent",
+        "pred": "tent",
+        "match": true
+      }
+    ],
+    "4": [
+      {
+        "gold": "orange",
+        "pred": "orange",
+        "match": true
+      },
+      {
+        "gold": "card",
+        "pred": "business card",
+        "match": true
+      },
+      {
+        "gold": "garden",
+        "pred": "field",
+        "match": false
+      },
+      {
+        "gold": "pantry",
+        "pred": "pantry",
+        "match": true
+      },
+      {
+        "gold": "Tent",
+        "pred": "tent",
+        "match": true
+      }
+    ],
+    "8": [
+      {
+        "gold": "orange",
+        "pred": "orange",
+        "match": true
+      },
+      {
+        "gold": "card",
+        "pred": "business card",
+        "match": true
+      },
+      {
+        "gold": "garden",
+        "pred": "field",
+        "match": false
+      },
+      {
+        "gold": "pantry",
+        "pred": "pantry",
+        "match": true
+      },
+      {
+        "gold": "Tent",
+        "pred": "tent",
+        "match": true
+      }
+    ],
+    "16": [
+      {
+        "gold": "orange",
+        "pred": "orange",
+        "match": true
+      },
+      {
+        "gold": "card",
+        "pred": "business card",
+        "match": true
+      },
+      {
+        "gold": "garden",
+        "pred": "field",
+        "match": false
+      },
+      {
+        "gold": "pantry",
+        "pred": "pantry",
+        "match": true
+      },
+      {
+        "gold": "Tent",
+        "pred": "tent",
+        "match": true
+      }
+    ],
+    "32": [
+      {
+        "gold": "orange",
+        "pred": "orange",
+        "match": true
+      },
+      {
+        "gold": "card",
+        "pred": "business card",
+        "match": true
+      },
+      {
+        "gold": "garden",
+        "pred": "field",
+        "match": false
+      },
+      {
+        "gold": "pantry",
+        "pred": "pantry",
+        "match": true
+      },
+      {
+        "gold": "Tent",
+        "pred": "tent",
+        "match": true
+      }
+    ],
+    "64": [
+      {
+        "gold": "orange",
+        "pred": "orange",
+        "match": true
+      },
+      {
+        "gold": "card",
+        "pred": "business card",
+        "match": true
+      },
+      {
+        "gold": "garden",
+        "pred": "field",
+        "match": false
+      },
+      {
+        "gold": "pantry",
+        "pred": "pantry",
+        "match": true
+      },
+      {
+        "gold": "Tent",
+        "pred": "tent",
+        "match": true
+      }
+    ],
+    "96": [
+      {
+        "gold": "orange",
+        "pred": "orange",
+        "match": true
+      },
+      {
+        "gold": "card",
+        "pred": "business card",
+        "match": true
+      },
+      {
+        "gold": "garden",
+        "pred": "field",
+        "match": false
+      },
+      {
+        "gold": "pantry",
+        "pred": "pantry",
+        "match": true
+      },
+      {
+        "gold": "Tent",
+        "pred": "tent",
+        "match": true
+      }
+    ]
+  }
+}

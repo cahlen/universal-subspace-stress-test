@@ -1,0 +1,279 @@
+{
+  "held_out": "Lots-of-LoRAs__Mistral-7B-Instruct-v0.2-4b-r16-task022",
+  "task_id": "task022",
+  "n_fit": 99,
+  "ks": [
+    1,
+    4,
+    8,
+    16,
+    32,
+    64,
+    96
+  ],
+  "weight_rel_err": {
+    "1": 1.1192730962401876,
+    "4": 1.1106151778911766,
+    "8": 1.1060957328497796,
+    "16": 1.095336526010529,
+    "32": 1.0850722214713018,
+    "64": 1.0369866865105148,
+    "96": 1.0007112965221359
+  },
+  "base_acc": 0.7,
+  "orig_acc": 1.0,
+  "proj_acc": {
+    "1": 0.8,
+    "4": 0.8,
+    "8": 0.8,
+    "16": 0.8,
+    "32": 0.8,
+    "64": 0.75,
+    "96": 0.7
+  },
+  "base_examples": [
+    {
+      "gold": "No.",
+      "pred": "Answer: No.",
+      "match": true
+    },
+    {
+      "gold": "No.",
+      "pred": "Answer: No.",
+      "match": true
+    },
+    {
+      "gold": "Yes.",
+      "pred": "Answer: No. The context is about a person's experience with a woman who used to",
+      "match": false
+    },
+    {
+      "gold": "No.",
+      "pred": "Answer: Yes.",
+      "match": false
+    },
+    {
+      "gold": "No.",
+      "pred": "Answer: No.",
+      "match": true
+    }
+  ],
+  "orig_examples": [
+    {
+      "gold": "No.",
+      "pred": "No.",
+      "match": true
+    },
+    {
+      "gold": "No.",
+      "pred": "No.",
+      "match": true
+    },
+    {
+      "gold": "Yes.",
+      "pred": "Yes.",
+      "match": true
+    },
+    {
+      "gold": "No.",
+      "pred": "No.",
+      "match": true
+    },
+    {
+      "gold": "No.",
+      "pred": "No.",
+      "match": true
+    }
+  ],
+  "proj_examples": {
+    "1": [
+      {
+        "gold": "No.",
+        "pred": "No.",
+        "match": true
+      },
+      {
+        "gold": "No.",
+        "pred": "No.",
+        "match": true
+      },
+      {
+        "gold": "Yes.",
+        "pred": "No.",
+        "match": false
+      },
+      {
+        "gold": "No.",
+        "pred": "Yes.",
+        "match": false
+      },
+      {
+        "gold": "No.",
+        "pred": "No.",
+        "match": true
+      }
+    ],
+    "4": [
+      {
+        "gold": "No.",
+        "pred": "No.",
+        "match": true
+      },
+      {
+        "gold": "No.",
+        "pred": "No.",
+        "match": true
+      },
+      {
+        "gold": "Yes.",
+        "pred": "No.",
+        "match": false
+      },
+      {
+        "gold": "No.",
+        "pred": "Yes.",
+        "match": false
+      },
+      {
+        "gold": "No.",
+        "pred": "No.",
+        "match": true
+      }
+    ],
+    "8": [
+      {
+        "gold": "No.",
+        "pred": "No.",
+        "match": true
+      },
+      {
+        "gold": "No.",
+        "pred": "No.",
+        "match": true
+      },
+      {
+        "gold": "Yes.",
+        "pred": "No.",
+        "match": false
+      },
+      {
+        "gold": "No.",
+        "pred": "Yes.",
+        "match": false
+      },
+      {
+        "gold": "No.",
+        "pred": "No.",
+        "match": true
+      }
+    ],
+    "16": [
+      {
+        "gold": "No.",
+        "pred": "No.",
+        "match": true
+      },
+      {
+        "gold": "No.",
+        "pred": "No.",
+        "match": true
+      },
+      {
+        "gold": "Yes.",
+        "pred": "No.",
+        "match": false
+      },
+      {
+        "gold": "No.",
+        "pred": "Yes.",
+        "match": false
+      },
+      {
+        "gold": "No.",
+        "pred": "No.",
+        "match": true
+      }
+    ],
+    "32": [
+      {
+        "gold": "No.",
+        "pred": "No.",
+        "match": true
+      },
+      {
+        "gold": "No.",
+        "pred": "No.",
+        "match": true
+      },
+      {
+        "gold": "Yes.",
+        "pred": "No.",
+        "match": false
+      },
+      {
+        "gold": "No.",
+        "pred": "Yes.",
+        "match": false
+      },
+      {
+        "gold": "No.",
+        "pred": "No.",
+        "match": true
+      }
+    ],
+    "64": [
+      {
+        "gold": "No.",
+        "pred": "No.",
+        "match": true
+      },
+      {
+        "gold": "No.",
+        "pred": "No.",
+        "match": true
+      },
+      {
+        "gold": "Yes.",
+        "pred": "No.",
+        "match": false
+      },
+      {
+        "gold": "No.",
+        "pred": "Yes.",
+        "match": false
+      },
+      {
+        "gold": "No.",
+        "pred": "No.",
+        "match": true
+      }
+    ],
+    "96": [
+      {
+        "gold": "No.",
+        "pred": "No.",
+        "match": true
+      },
+      {
+        "gold": "No.",
+        "pred": "No.",
+        "match": true
+      },
+      {
+        "gold": "Yes.",
+        "pred": "No.",
+        "match": false
+      },
+      {
+        "gold": "No.",
+        "pred": "Yes.",
+        "match": false
+      },
+      {
+        "gold": "No.",
+        "pred": "No.",
+        "match": true
+      }
+    ]
+  }
+}

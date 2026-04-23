@@ -1,0 +1,13 @@
+# Exact versions used to produce the results in this repo.
+# These are known-good as of 2026-04-22 on Ubuntu 24.04 + CUDA 13.1 + RTX 5090.
+# Newer minor versions of each package should work, with the possible exception
+# of torch (major SVD/linalg API changes between 2.x versions can matter).
+
+torch==2.11.0
+transformers==5.4.0
+peft==0.18.1
+safetensors==0.7.0
+huggingface_hub==1.8.0
+datasets==4.8.4
+numpy==2.2.6
+matplotlib==3.10.8
